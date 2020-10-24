@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1600243927432,33575,query3 MongoDB,200,OK,Groep 1 1-1,text,true,,2915,252,1,1,http://localhost:5000/graphql,33575,0,0
+1600243961008,22775,query3 MongoDB,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Groep 1 1-1,text,false,,2562,0,1,1,http://localhost:5000/graphql,0,0,2

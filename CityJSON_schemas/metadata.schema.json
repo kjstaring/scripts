@@ -1,0 +1,2295 @@
+{
+    "$jsonSchema": {
+        "properties": {
+            "abstract": {
+                "bsonType": "string"
+            },
+            "cityfeatureMetadata": {
+                "additionalProperties": false,
+                "bsonType": "object",
+                "properties": {
+                    "Bridge": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "Building": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "CityFurniture": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "CityObjectGroup": {
+                        "additionalProperties": false,
+                        "bsonType": "object",
+                        "properties": {
+                            "Bridge": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "Building": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "CityFurniture": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "GenericCityObject": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "LandUse": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "PlantCover": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "Railway": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "Road": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "SolitaryVegetationObject": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "TINRelief": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "TransportSquare": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "Tunnel": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "WaterBody": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "aggregateFeatureCount": {
+                                        "bsonType": "int"
+                                    },
+                                    "presentLoDs": {
+                                        "bsonType": "object",
+                                        "properties": {
+                                            "0.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "0.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "1.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "2.3": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.0": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.1": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.2": {
+                                                "bsonType": "int"
+                                            },
+                                            "3.3": {
+                                                "bsonType": "int"
+                                            }
+                                        }
+                                    },
+                                    "uniqueFeatureCount": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "GenericCityObject": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "LandUse": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "PlantCover": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "Railway": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "Road": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "SolitaryVegetationObject": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "TINRelief": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "TransportSquare": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "Tunnel": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    },
+                    "WaterBody": {
+                        "bsonType": "object",
+                        "properties": {
+                            "aggregateFeatureCount": {
+                                "bsonType": "int"
+                            },
+                            "presentLoDs": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "0.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "0.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "1.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "2.3": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.0": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.1": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.2": {
+                                        "bsonType": "int"
+                                    },
+                                    "3.3": {
+                                        "bsonType": "int"
+                                    }
+                                }
+                            },
+                            "uniqueFeatureCount": {
+                                "bsonType": "int"
+                            }
+                        }
+                    }
+                }
+            },
+            "citymodelIdentifier": {
+                "bsonType": "string",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            "constraints": {
+                "bsonType": "object",
+                "properties": {
+                    "legalConstraints": {
+                        "bsonType": "string",
+                        "enum": [
+                            "copyright",
+                            "patent",
+                            "patentPending",
+                            "trademark",
+                            "licence",
+                            "intellectualPropertyRights",
+                            "restricted",
+                            "otherRestrictions",
+                            "unrestricted",
+                            "licenseUnrestricted",
+                            "licenseEndUser",
+                            "licenseDistributor",
+                            "private",
+                            "statutory",
+                            "confidential",
+                            "sensitiveButUnclassified",
+                            "in-confidence"
+                        ]
+                    },
+                    "securityConstraints": {
+                        "bsonType": "string",
+                        "enum": [
+                            "unclassified",
+                            "restricted",
+                            "confidential",
+                            "secret",
+                            "topSecret",
+                            "sensitiveButUnclassified",
+                            "forOfficialUseOnly",
+                            "protected",
+                            "limitedDistribution"
+                        ]
+                    },
+                    "userNote": {
+                        "bsonType": "string"
+                    }
+                }
+            },
+            "datasetCharacterSet": {
+                "bsonType": "string"
+            },
+            "datasetLanguage": {
+                "bsonType": "string"
+            },
+            "datasetPointOfContact": {
+                "bsonType": "object",
+                "oneOf": [
+                    {
+                        "bsonType": "object",
+                        "properties": {
+                            "contactType": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "individual"
+                                ]
+                            },
+                            "organization": {
+                                "bsonType": "string"
+                            },
+                            "role": {
+                                "bsonType": "string",
+                                "description": "from ISO 19115 codelist",
+                                "enum": [
+                                    "resourceProvider",
+                                    "custodian",
+                                    "owner",
+                                    "user",
+                                    "distributor",
+                                    "originator",
+                                    "pointOfContact",
+                                    "principalInvestigator",
+                                    "processor",
+                                    "publisher",
+                                    "author",
+                                    "sponsor",
+                                    "co-author",
+                                    "collaborator",
+                                    "editor",
+                                    "mediator",
+                                    "rightsHolder",
+                                    "contributor",
+                                    "funder",
+                                    "stakeholder"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "contactType"
+                        ]
+                    }
+                ],
+                "properties": {
+                    "address": {
+                        "bsonType": "string"
+                    },
+                    "contactName": {
+                        "bsonType": "string"
+                    },
+                    "emailAddress": {
+                        "bsonType": "string"
+                    },
+                    "phone": {
+                        "bsonType": "string"
+                    }
+                }
+            },
+            "datasetReferenceDate": {
+                "bsonType": "string"
+            },
+            "datasetTitle": {
+                "bsonType": "string"
+            },
+            "datasetTopicCategory": {
+                "bsonType": "string",
+                "description": "from ISO19115 codelist",
+                "enum": [
+                    "farming",
+                    "bioata",
+                    "boundaries",
+                    "climatology",
+                    "meteorology",
+                    "atmosphere",
+                    "economy",
+                    "elevation",
+                    "environment",
+                    "geoscientificInformation",
+                    "health",
+                    "imageryBaseMapsEarthCover",
+                    "intelligenceMilitary",
+                    "inlandWaters",
+                    "location",
+                    "oceans",
+                    "planningCadastre",
+                    "society",
+                    "structure",
+                    "transportation",
+                    "utilitiesCommunication",
+                    "extraTerrestrial",
+                    "disaster"
+                ]
+            },
+            "distributionFormatVersion": {
+                "bsonType": "string",
+                "pattern": "\\d.\\d"
+            },
+            "fileIdentifier": {
+                "bsonType": "string"
+            },
+            "geographicLocation": {
+                "bsonType": "string",
+                "description": "the name of the area for instance"
+            },
+            "geographicalExtent": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "number"
+                },
+                "maxItems": 6,
+                "minItems": 6
+            },
+            "keywords": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "string"
+                }
+            },
+            "lineage": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "object",
+                    "properties": {
+                        "additionalDocumentation": {
+                            "bsonType": "string",
+                            "pattern": "^(https?|ftp)://"
+                        },
+                        "featureIDs": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "processStep": {
+                            "additionalProperties": false,
+                            "bsonType": "object",
+                            "properties": {
+                                "description": {
+                                    "bsonType": "string"
+                                },
+                                "processor": {
+                                    "bsonType": "object",
+                                    "oneOf": [
+                                        {
+                                            "bsonType": "object",
+                                            "properties": {
+                                                "contactType": {
+                                                    "bsonType": "string",
+                                                    "enum": [
+                                                        "individual"
+                                                    ]
+                                                },
+                                                "organization": {
+                                                    "bsonType": "string"
+                                                },
+                                                "role": {
+                                                    "bsonType": "string",
+                                                    "description": "from ISO 19115 codelist",
+                                                    "enum": [
+                                                        "resourceProvider",
+                                                        "custodian",
+                                                        "owner",
+                                                        "user",
+                                                        "distributor",
+                                                        "originator",
+                                                        "pointOfContact",
+                                                        "principalInvestigator",
+                                                        "processor",
+                                                        "publisher",
+                                                        "author",
+                                                        "sponsor",
+                                                        "co-author",
+                                                        "collaborator",
+                                                        "editor",
+                                                        "mediator",
+                                                        "rightsHolder",
+                                                        "contributor",
+                                                        "funder",
+                                                        "stakeholder"
+                                                    ]
+                                                }
+                                            },
+                                            "required": [
+                                                "contactType"
+                                            ]
+                                        }
+                                    ],
+                                    "properties": {
+                                        "address": {
+                                            "bsonType": "string"
+                                        },
+                                        "contactName": {
+                                            "bsonType": "string"
+                                        },
+                                        "emailAddress": {
+                                            "bsonType": "string"
+                                        },
+                                        "phone": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                },
+                                "rationale": {
+                                    "bsonType": "string"
+                                },
+                                "reference": {
+                                    "bsonType": "string",
+                                    "pattern": "^(https?|ftp)://"
+                                },
+                                "scope": {
+                                    "bsonType": "string"
+                                },
+                                "stepDateTime": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        },
+                        "scope": {
+                            "bsonType": "string"
+                        },
+                        "source": {
+                            "bsonType": "array",
+                            "items": {
+                                "additionalProperties": false,
+                                "bsonType": "object",
+                                "properties": {
+                                    "description": {
+                                        "bsonType": "string"
+                                    },
+                                    "scope": {
+                                        "bsonType": "string"
+                                    },
+                                    "sourceCitation": {
+                                        "bsonType": "string",
+                                        "pattern": "^(https?|ftp)://"
+                                    },
+                                    "sourceMetadata": {
+                                        "bsonType": "string",
+                                        "pattern": "^(https?|ftp)://"
+                                    },
+                                    "sourceReferenceSystem": {
+                                        "bsonType": "string",
+                                        "pattern": "^urn:ogc:def:crs:EPSG::[0-9]{4,5}$"
+                                    },
+                                    "sourceSpatialResolution": {
+                                        "bsonType": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "statement": {
+                            "bsonType": "string"
+                        },
+                        "thematicModels": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "Building",
+                                    "Road",
+                                    "Railway",
+                                    "TransportSquare",
+                                    "TINRelief",
+                                    "WaterBody",
+                                    "PlantCover",
+                                    "SolitaryVegetationObject",
+                                    "LandUse",
+                                    "CityFurniture",
+                                    "GenericCityObject",
+                                    "Bridge",
+                                    "Tunnel",
+                                    "CityObjectGroup"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "materials": {
+                "bsonType": "string",
+                "enum": [
+                    "present",
+                    "absent"
+                ]
+            },
+            "metadataCharacterSet": {
+                "bsonType": "string"
+            },
+            "metadataDateStamp": {
+                "bsonType": "string"
+            },
+            "metadataLanguage": {
+                "bsonType": "string"
+            },
+            "metadataPointOfContact": {
+                "bsonType": "object",
+                "oneOf": [
+                    {
+                        "bsonType": "object",
+                        "properties": {
+                            "contactType": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "individual"
+                                ]
+                            },
+                            "organization": {
+                                "bsonType": "string"
+                            },
+                            "role": {
+                                "bsonType": "string",
+                                "description": "from ISO 19115 codelist",
+                                "enum": [
+                                    "resourceProvider",
+                                    "custodian",
+                                    "owner",
+                                    "user",
+                                    "distributor",
+                                    "originator",
+                                    "pointOfContact",
+                                    "principalInvestigator",
+                                    "processor",
+                                    "publisher",
+                                    "author",
+                                    "sponsor",
+                                    "co-author",
+                                    "collaborator",
+                                    "editor",
+                                    "mediator",
+                                    "rightsHolder",
+                                    "contributor",
+                                    "funder",
+                                    "stakeholder"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "contactType"
+                        ]
+                    }
+                ],
+                "properties": {
+                    "address": {
+                        "bsonType": "string"
+                    },
+                    "contactName": {
+                        "bsonType": "string"
+                    },
+                    "emailAddress": {
+                        "bsonType": "string"
+                    },
+                    "phone": {
+                        "bsonType": "string"
+                    }
+                }
+            },
+            "metadataStandard": {
+                "bsonType": "string"
+            },
+            "metadataStandardVersion": {
+                "bsonType": "string",
+                "pattern": "\\d.\\d"
+            },
+            "onlineResource": {
+                "bsonType": "string",
+                "pattern": "^(https?|ftp)://"
+            },
+            "presentLoDs": {
+                "bsonType": "object",
+                "properties": {
+                    "0.0": {
+                        "bsonType": "int"
+                    },
+                    "0.1": {
+                        "bsonType": "int"
+                    },
+                    "0.2": {
+                        "bsonType": "int"
+                    },
+                    "0.3": {
+                        "bsonType": "int"
+                    },
+                    "1.0": {
+                        "bsonType": "int"
+                    },
+                    "1.1": {
+                        "bsonType": "int"
+                    },
+                    "1.2": {
+                        "bsonType": "int"
+                    },
+                    "1.3": {
+                        "bsonType": "int"
+                    },
+                    "2.0": {
+                        "bsonType": "int"
+                    },
+                    "2.1": {
+                        "bsonType": "int"
+                    },
+                    "2.2": {
+                        "bsonType": "int"
+                    },
+                    "2.3": {
+                        "bsonType": "int"
+                    },
+                    "3.0": {
+                        "bsonType": "int"
+                    },
+                    "3.1": {
+                        "bsonType": "int"
+                    },
+                    "3.2": {
+                        "bsonType": "int"
+                    },
+                    "3.3": {
+                        "bsonType": "int"
+                    }
+                }
+            },
+            "referenceSystem": {
+                "bsonType": "string",
+                "pattern": "^urn:ogc:def:crs:EPSG::[0-9]{4,5}$"
+            },
+            "spatialRepresentationType": {
+                "bsonType": "string",
+                "description": "from ISO19115 codelist",
+                "enum": [
+                    "vector",
+                    "grid",
+                    "TIN",
+                    "textTable",
+                    "stereoModel",
+                    "video"
+                ]
+            },
+            "specificUsage": {
+                "bsonType": "string"
+            },
+            "temporalExtent": {
+                "bsonType": "object",
+                "properties": {
+                    "endDate": {
+                        "bsonType": "string"
+                    },
+                    "startDate": {
+                        "bsonType": "string"
+                    }
+                }
+            },
+            "textures": {
+                "bsonType": "string",
+                "enum": [
+                    "present",
+                    "absent"
+                ]
+            },
+            "thematicModels": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "string",
+                    "enum": [
+                        "Building",
+                        "Road",
+                        "Railway",
+                        "TransportSquare",
+                        "TINRelief",
+                        "WaterBody",
+                        "PlantCover",
+                        "SolitaryVegetationObject",
+                        "LandUse",
+                        "CityFurniture",
+                        "GenericCityObject",
+                        "Bridge",
+                        "Tunnel",
+                        "CityObjectGroup"
+                    ]
+                }
+            },
+            "type": {
+                "enum": [
+                    "CityJSON"
+                ]
+            },
+            "version": {
+                "bsonType": "string",
+                "pattern": "^(\\d\\.)(\\d)$"
+            }
+        },
+        "required": [
+            "type",
+            "version"
+        ],
+        "type": "object"
+    }
+}

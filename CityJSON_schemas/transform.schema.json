@@ -1,0 +1,27 @@
+{
+    "$jsonSchema": {
+        "properties": {
+            "scale": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "number"
+                },
+                "maxItems": 3,
+                "minItems": 3
+            },
+            "translate": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "number"
+                },
+                "maxItems": 3,
+                "minItems": 3
+            }
+        },
+        "required": [
+            "scale",
+            "translate"
+        ],
+        "type": "object"
+    }
+}

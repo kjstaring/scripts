@@ -1,0 +1,800 @@
+2020-09-18 14:00:06.296 CEST [56009] LOG:  database system was shut down at 2020-09-18 13:59:49 CEST
+2020-09-18 14:00:06.301 CEST [56007] LOG:  database system is ready to accept connections
+2020-09-18 14:00:30.870 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:30.870 CEST [56036] LOG:  duration: 0.196 ms
+2020-09-18 14:00:30.870 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:31.313 CEST [56036] LOG:  duration: 442.770 ms
+2020-09-18 14:00:31.314 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:31.314 CEST [56036] LOG:  duration: 0.067 ms
+2020-09-18 14:00:31.325 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:31.325 CEST [56036] LOG:  duration: 0.475 ms
+2020-09-18 14:00:31.327 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:31.627 CEST [56036] LOG:  duration: 299.797 ms
+2020-09-18 14:00:31.628 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:31.629 CEST [56036] LOG:  duration: 0.069 ms
+2020-09-18 14:00:31.636 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:31.636 CEST [56036] LOG:  duration: 0.144 ms
+2020-09-18 14:00:31.637 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:31.882 CEST [56036] LOG:  duration: 245.211 ms
+2020-09-18 14:00:31.884 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:31.884 CEST [56036] LOG:  duration: 0.101 ms
+2020-09-18 14:00:31.902 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:31.902 CEST [56036] LOG:  duration: 0.160 ms
+2020-09-18 14:00:31.903 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:32.124 CEST [56036] LOG:  duration: 221.308 ms
+2020-09-18 14:00:32.126 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:32.126 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:32.133 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:32.133 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:32.133 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:32.317 CEST [56036] LOG:  duration: 184.155 ms
+2020-09-18 14:00:32.318 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:32.318 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:32.325 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:32.325 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:32.325 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:32.652 CEST [56036] LOG:  duration: 326.945 ms
+2020-09-18 14:00:32.654 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:32.654 CEST [56036] LOG:  duration: 0.081 ms
+2020-09-18 14:00:32.665 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:32.665 CEST [56036] LOG:  duration: 0.061 ms
+2020-09-18 14:00:32.673 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:32.928 CEST [56036] LOG:  duration: 255.890 ms
+2020-09-18 14:00:32.930 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:32.930 CEST [56036] LOG:  duration: 0.061 ms
+2020-09-18 14:00:32.938 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:32.938 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:32.938 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:33.113 CEST [56036] LOG:  duration: 174.871 ms
+2020-09-18 14:00:33.114 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:33.114 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:33.121 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:33.121 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:33.121 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:33.295 CEST [56036] LOG:  duration: 174.093 ms
+2020-09-18 14:00:33.296 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:33.296 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:33.303 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:33.304 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:33.304 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:33.482 CEST [56036] LOG:  duration: 178.287 ms
+2020-09-18 14:00:33.483 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:33.483 CEST [56036] LOG:  duration: 0.055 ms
+2020-09-18 14:00:33.495 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:33.495 CEST [56036] LOG:  duration: 0.136 ms
+2020-09-18 14:00:33.497 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:33.674 CEST [56036] LOG:  duration: 177.454 ms
+2020-09-18 14:00:33.675 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:33.675 CEST [56036] LOG:  duration: 0.041 ms
+2020-09-18 14:00:33.682 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:33.682 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:33.682 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:33.865 CEST [56036] LOG:  duration: 183.156 ms
+2020-09-18 14:00:33.866 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:33.866 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:33.873 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:33.873 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:33.873 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:34.047 CEST [56036] LOG:  duration: 174.395 ms
+2020-09-18 14:00:34.049 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:34.049 CEST [56036] LOG:  duration: 0.052 ms
+2020-09-18 14:00:34.056 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:34.056 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:34.056 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:34.231 CEST [56036] LOG:  duration: 174.736 ms
+2020-09-18 14:00:34.232 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:34.232 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:34.239 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:34.239 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:34.239 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:34.471 CEST [56036] LOG:  duration: 232.296 ms
+2020-09-18 14:00:34.473 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:34.473 CEST [56036] LOG:  duration: 0.075 ms
+2020-09-18 14:00:34.500 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:34.500 CEST [56036] LOG:  duration: 0.132 ms
+2020-09-18 14:00:34.501 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:34.693 CEST [56036] LOG:  duration: 192.417 ms
+2020-09-18 14:00:34.695 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:34.695 CEST [56036] LOG:  duration: 0.068 ms
+2020-09-18 14:00:34.717 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:34.717 CEST [56036] LOG:  duration: 0.123 ms
+2020-09-18 14:00:34.717 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:34.891 CEST [56036] LOG:  duration: 174.264 ms
+2020-09-18 14:00:34.892 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:34.892 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:34.899 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:34.899 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:34.899 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:35.076 CEST [56036] LOG:  duration: 176.447 ms
+2020-09-18 14:00:35.077 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:35.077 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:35.084 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:35.084 CEST [56036] LOG:  duration: 0.057 ms
+2020-09-18 14:00:35.084 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:35.258 CEST [56036] LOG:  duration: 174.511 ms
+2020-09-18 14:00:35.260 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:35.260 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:35.266 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:35.266 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:35.266 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:35.483 CEST [56036] LOG:  duration: 216.657 ms
+2020-09-18 14:00:35.484 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:35.484 CEST [56036] LOG:  duration: 0.056 ms
+2020-09-18 14:00:35.497 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:35.497 CEST [56036] LOG:  duration: 0.066 ms
+2020-09-18 14:00:35.498 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:35.696 CEST [56036] LOG:  duration: 198.092 ms
+2020-09-18 14:00:35.697 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:35.697 CEST [56036] LOG:  duration: 0.055 ms
+2020-09-18 14:00:35.724 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:35.724 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:35.724 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:35.895 CEST [56036] LOG:  duration: 171.145 ms
+2020-09-18 14:00:35.896 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:35.896 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:35.904 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:35.904 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:35.904 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:36.077 CEST [56036] LOG:  duration: 173.227 ms
+2020-09-18 14:00:36.078 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:36.078 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:36.086 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:36.086 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:36.087 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:36.259 CEST [56036] LOG:  duration: 172.462 ms
+2020-09-18 14:00:36.260 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:36.260 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:36.266 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:36.266 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:36.266 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:36.475 CEST [56036] LOG:  duration: 208.997 ms
+2020-09-18 14:00:36.476 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:36.476 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:36.483 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:36.483 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:36.483 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:36.659 CEST [56036] LOG:  duration: 175.307 ms
+2020-09-18 14:00:36.660 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:36.660 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:36.670 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:36.670 CEST [56036] LOG:  duration: 0.120 ms
+2020-09-18 14:00:36.670 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:36.846 CEST [56036] LOG:  duration: 175.564 ms
+2020-09-18 14:00:36.847 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:36.847 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:36.855 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:36.855 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:36.855 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:37.039 CEST [56036] LOG:  duration: 184.134 ms
+2020-09-18 14:00:37.040 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:37.040 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:37.047 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:37.047 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:37.048 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:37.221 CEST [56036] LOG:  duration: 173.179 ms
+2020-09-18 14:00:37.222 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:37.222 CEST [56036] LOG:  duration: 0.058 ms
+2020-09-18 14:00:37.232 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:37.232 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:37.232 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:37.417 CEST [56036] LOG:  duration: 184.756 ms
+2020-09-18 14:00:37.418 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:37.418 CEST [56036] LOG:  duration: 0.139 ms
+2020-09-18 14:00:37.447 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:37.447 CEST [56036] LOG:  duration: 0.116 ms
+2020-09-18 14:00:37.448 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:37.639 CEST [56036] LOG:  duration: 191.620 ms
+2020-09-18 14:00:37.641 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:37.641 CEST [56036] LOG:  duration: 0.072 ms
+2020-09-18 14:00:37.648 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:37.648 CEST [56036] LOG:  duration: 0.064 ms
+2020-09-18 14:00:37.648 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:37.833 CEST [56036] LOG:  duration: 185.322 ms
+2020-09-18 14:00:37.834 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:37.834 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:37.841 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:37.841 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:37.842 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.023 CEST [56036] LOG:  duration: 181.137 ms
+2020-09-18 14:00:38.024 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:38.024 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:38.031 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:38.031 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:38.031 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.206 CEST [56036] LOG:  duration: 175.200 ms
+2020-09-18 14:00:38.207 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:38.208 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:38.215 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:38.215 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:38.215 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.394 CEST [56036] LOG:  duration: 179.275 ms
+2020-09-18 14:00:38.396 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:38.396 CEST [56036] LOG:  duration: 0.055 ms
+2020-09-18 14:00:38.403 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:38.403 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:38.403 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.605 CEST [56036] LOG:  duration: 202.220 ms
+2020-09-18 14:00:38.606 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:38.606 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:38.616 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:38.616 CEST [56036] LOG:  duration: 0.129 ms
+2020-09-18 14:00:38.619 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.803 CEST [56036] LOG:  duration: 184.168 ms
+2020-09-18 14:00:38.805 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:38.805 CEST [56036] LOG:  duration: 0.055 ms
+2020-09-18 14:00:38.813 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:38.813 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:38.813 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:38.999 CEST [56036] LOG:  duration: 186.142 ms
+2020-09-18 14:00:39.001 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:39.001 CEST [56036] LOG:  duration: 0.185 ms
+2020-09-18 14:00:39.015 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:39.015 CEST [56036] LOG:  duration: 0.061 ms
+2020-09-18 14:00:39.015 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:39.215 CEST [56036] LOG:  duration: 200.360 ms
+2020-09-18 14:00:39.216 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:39.216 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:39.227 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:39.227 CEST [56036] LOG:  duration: 0.127 ms
+2020-09-18 14:00:39.230 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:39.459 CEST [56036] LOG:  duration: 228.849 ms
+2020-09-18 14:00:39.462 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:39.462 CEST [56036] LOG:  duration: 0.158 ms
+2020-09-18 14:00:39.475 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:39.475 CEST [56036] LOG:  duration: 0.135 ms
+2020-09-18 14:00:39.476 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:39.654 CEST [56036] LOG:  duration: 177.768 ms
+2020-09-18 14:00:39.655 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:39.655 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:39.662 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:39.662 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:39.663 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:39.839 CEST [56036] LOG:  duration: 176.524 ms
+2020-09-18 14:00:39.840 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:39.840 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:39.847 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:39.847 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:39.847 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:40.050 CEST [56036] LOG:  duration: 202.649 ms
+2020-09-18 14:00:40.051 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:40.051 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:40.058 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:40.058 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:40.058 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:40.230 CEST [56036] LOG:  duration: 172.377 ms
+2020-09-18 14:00:40.232 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:40.232 CEST [56036] LOG:  duration: 0.070 ms
+2020-09-18 14:00:40.258 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:40.258 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:40.258 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:40.442 CEST [56036] LOG:  duration: 184.005 ms
+2020-09-18 14:00:40.443 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:40.443 CEST [56036] LOG:  duration: 0.069 ms
+2020-09-18 14:00:40.457 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:40.457 CEST [56036] LOG:  duration: 0.059 ms
+2020-09-18 14:00:40.457 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:40.640 CEST [56036] LOG:  duration: 182.538 ms
+2020-09-18 14:00:40.641 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:40.641 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:40.648 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:40.648 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:40.648 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:40.826 CEST [56036] LOG:  duration: 177.915 ms
+2020-09-18 14:00:40.827 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:40.827 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:40.840 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:40.840 CEST [56036] LOG:  duration: 0.124 ms
+2020-09-18 14:00:40.840 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:41.044 CEST [56036] LOG:  duration: 204.168 ms
+2020-09-18 14:00:41.045 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:41.045 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:41.052 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:41.052 CEST [56036] LOG:  duration: 0.169 ms
+2020-09-18 14:00:41.052 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:41.231 CEST [56036] LOG:  duration: 179.088 ms
+2020-09-18 14:00:41.234 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:41.234 CEST [56036] LOG:  duration: 0.069 ms
+2020-09-18 14:00:41.271 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:41.271 CEST [56036] LOG:  duration: 0.058 ms
+2020-09-18 14:00:41.271 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:41.499 CEST [56036] LOG:  duration: 227.561 ms
+2020-09-18 14:00:41.500 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:41.500 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:41.507 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:41.507 CEST [56036] LOG:  duration: 0.060 ms
+2020-09-18 14:00:41.509 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:41.693 CEST [56036] LOG:  duration: 183.864 ms
+2020-09-18 14:00:41.693 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:41.693 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:41.700 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:41.701 CEST [56036] LOG:  duration: 0.053 ms
+2020-09-18 14:00:41.701 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:41.904 CEST [56036] LOG:  duration: 203.420 ms
+2020-09-18 14:00:41.905 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:41.905 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:41.914 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:41.914 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:41.915 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:42.091 CEST [56036] LOG:  duration: 176.620 ms
+2020-09-18 14:00:42.092 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:42.093 CEST [56036] LOG:  duration: 0.062 ms
+2020-09-18 14:00:42.107 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:42.107 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:42.107 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:42.300 CEST [56036] LOG:  duration: 193.391 ms
+2020-09-18 14:00:42.301 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:42.301 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:42.309 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:42.309 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:42.309 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:42.543 CEST [56036] LOG:  duration: 234.063 ms
+2020-09-18 14:00:42.544 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:42.544 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:42.551 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:42.551 CEST [56036] LOG:  duration: 0.143 ms
+2020-09-18 14:00:42.551 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:42.728 CEST [56036] LOG:  duration: 177.213 ms
+2020-09-18 14:00:42.729 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:42.730 CEST [56036] LOG:  duration: 0.060 ms
+2020-09-18 14:00:42.736 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:42.736 CEST [56036] LOG:  duration: 0.112 ms
+2020-09-18 14:00:42.742 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:42.930 CEST [56036] LOG:  duration: 188.022 ms
+2020-09-18 14:00:42.931 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:42.931 CEST [56036] LOG:  duration: 0.060 ms
+2020-09-18 14:00:42.940 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:42.940 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:42.940 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:43.126 CEST [56036] LOG:  duration: 185.442 ms
+2020-09-18 14:00:43.127 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:43.127 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:43.140 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:43.140 CEST [56036] LOG:  duration: 0.063 ms
+2020-09-18 14:00:43.141 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:43.326 CEST [56036] LOG:  duration: 185.756 ms
+2020-09-18 14:00:43.328 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:43.328 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:43.334 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:43.334 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:43.334 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:43.526 CEST [56036] LOG:  duration: 192.259 ms
+2020-09-18 14:00:43.527 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:43.528 CEST [56036] LOG:  duration: 0.042 ms
+2020-09-18 14:00:43.534 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:43.534 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:43.534 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:43.713 CEST [56036] LOG:  duration: 178.312 ms
+2020-09-18 14:00:43.714 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:43.714 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:43.721 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:43.721 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:43.721 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:43.906 CEST [56036] LOG:  duration: 184.728 ms
+2020-09-18 14:00:43.907 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:43.907 CEST [56036] LOG:  duration: 0.059 ms
+2020-09-18 14:00:43.917 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:43.917 CEST [56036] LOG:  duration: 0.111 ms
+2020-09-18 14:00:43.918 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:44.102 CEST [56036] LOG:  duration: 183.612 ms
+2020-09-18 14:00:44.103 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:44.103 CEST [56036] LOG:  duration: 0.074 ms
+2020-09-18 14:00:44.110 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:44.110 CEST [56036] LOG:  duration: 0.066 ms
+2020-09-18 14:00:44.110 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:44.289 CEST [56036] LOG:  duration: 178.298 ms
+2020-09-18 14:00:44.290 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:44.290 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:44.296 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:44.297 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:44.297 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:44.485 CEST [56036] LOG:  duration: 188.339 ms
+2020-09-18 14:00:44.486 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:44.486 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:44.495 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:44.496 CEST [56036] LOG:  duration: 0.389 ms
+2020-09-18 14:00:44.499 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:44.682 CEST [56036] LOG:  duration: 182.406 ms
+2020-09-18 14:00:44.683 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:44.683 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:44.689 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:44.689 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:44.689 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:44.866 CEST [56036] LOG:  duration: 176.677 ms
+2020-09-18 14:00:44.867 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:44.868 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:44.874 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:44.874 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:44.874 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:45.057 CEST [56036] LOG:  duration: 183.113 ms
+2020-09-18 14:00:45.058 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:45.058 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:45.065 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:45.065 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:45.065 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:45.240 CEST [56036] LOG:  duration: 174.967 ms
+2020-09-18 14:00:45.241 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:45.241 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:45.248 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:45.248 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:45.248 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:45.437 CEST [56036] LOG:  duration: 189.000 ms
+2020-09-18 14:00:45.441 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:45.441 CEST [56036] LOG:  duration: 0.070 ms
+2020-09-18 14:00:45.451 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:45.451 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:45.451 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:45.633 CEST [56036] LOG:  duration: 182.384 ms
+2020-09-18 14:00:45.635 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:45.635 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:45.642 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:45.642 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:45.642 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:45.820 CEST [56036] LOG:  duration: 178.327 ms
+2020-09-18 14:00:45.821 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:45.821 CEST [56036] LOG:  duration: 0.056 ms
+2020-09-18 14:00:45.828 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:45.828 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:45.828 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.011 CEST [56036] LOG:  duration: 183.235 ms
+2020-09-18 14:00:46.012 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.012 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:46.019 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.019 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:46.019 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.195 CEST [56036] LOG:  duration: 175.946 ms
+2020-09-18 14:00:46.196 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.196 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:46.203 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.203 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:46.203 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.379 CEST [56036] LOG:  duration: 176.526 ms
+2020-09-18 14:00:46.380 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.380 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:46.386 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.386 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:46.387 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.580 CEST [56036] LOG:  duration: 193.795 ms
+2020-09-18 14:00:46.582 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.582 CEST [56036] LOG:  duration: 0.068 ms
+2020-09-18 14:00:46.589 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.589 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:46.589 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.766 CEST [56036] LOG:  duration: 177.314 ms
+2020-09-18 14:00:46.767 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.767 CEST [56036] LOG:  duration: 0.057 ms
+2020-09-18 14:00:46.805 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.805 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:46.806 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:46.978 CEST [56036] LOG:  duration: 172.373 ms
+2020-09-18 14:00:46.979 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:46.979 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:46.986 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:46.986 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:46.986 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:47.165 CEST [56036] LOG:  duration: 178.174 ms
+2020-09-18 14:00:47.166 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:47.166 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:47.173 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:47.173 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:47.173 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:47.350 CEST [56036] LOG:  duration: 177.018 ms
+2020-09-18 14:00:47.351 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:47.351 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:47.359 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:47.359 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:47.359 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:47.549 CEST [56036] LOG:  duration: 190.266 ms
+2020-09-18 14:00:47.550 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:47.550 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:47.557 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:47.557 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:47.557 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:47.733 CEST [56036] LOG:  duration: 175.413 ms
+2020-09-18 14:00:47.734 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:47.734 CEST [56036] LOG:  duration: 0.054 ms
+2020-09-18 14:00:47.741 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:47.741 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:47.741 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:47.922 CEST [56036] LOG:  duration: 181.050 ms
+2020-09-18 14:00:47.925 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:47.925 CEST [56036] LOG:  duration: 0.056 ms
+2020-09-18 14:00:47.934 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:47.934 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:47.934 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:48.122 CEST [56036] LOG:  duration: 187.921 ms
+2020-09-18 14:00:48.124 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:48.124 CEST [56036] LOG:  duration: 0.057 ms
+2020-09-18 14:00:48.134 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:48.134 CEST [56036] LOG:  duration: 0.047 ms
+2020-09-18 14:00:48.134 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:48.312 CEST [56036] LOG:  duration: 178.130 ms
+2020-09-18 14:00:48.314 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:48.314 CEST [56036] LOG:  duration: 0.049 ms
+2020-09-18 14:00:48.322 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:48.322 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:48.322 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:48.511 CEST [56036] LOG:  duration: 188.669 ms
+2020-09-18 14:00:48.512 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:48.512 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:48.521 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:48.521 CEST [56036] LOG:  duration: 0.135 ms
+2020-09-18 14:00:48.522 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:48.698 CEST [56036] LOG:  duration: 176.147 ms
+2020-09-18 14:00:48.699 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:48.699 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:48.705 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:48.705 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:48.705 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:48.882 CEST [56036] LOG:  duration: 176.547 ms
+2020-09-18 14:00:48.883 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:48.883 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:48.890 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:48.890 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:48.890 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:49.070 CEST [56036] LOG:  duration: 179.958 ms
+2020-09-18 14:00:49.071 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:49.071 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:49.082 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:49.082 CEST [56036] LOG:  duration: 0.115 ms
+2020-09-18 14:00:49.084 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:49.265 CEST [56036] LOG:  duration: 181.132 ms
+2020-09-18 14:00:49.266 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:49.266 CEST [56036] LOG:  duration: 0.052 ms
+2020-09-18 14:00:49.272 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:49.272 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:49.272 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:49.472 CEST [56036] LOG:  duration: 199.941 ms
+2020-09-18 14:00:49.473 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:49.474 CEST [56036] LOG:  duration: 0.050 ms
+2020-09-18 14:00:49.480 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:49.480 CEST [56036] LOG:  duration: 0.044 ms
+2020-09-18 14:00:49.480 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:49.655 CEST [56036] LOG:  duration: 175.472 ms
+2020-09-18 14:00:49.656 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:49.656 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:49.663 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:49.663 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:49.663 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:49.848 CEST [56036] LOG:  duration: 185.214 ms
+2020-09-18 14:00:49.849 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:49.849 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:49.857 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:49.857 CEST [56036] LOG:  duration: 0.061 ms
+2020-09-18 14:00:49.857 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:50.037 CEST [56036] LOG:  duration: 179.661 ms
+2020-09-18 14:00:50.038 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:50.038 CEST [56036] LOG:  duration: 0.051 ms
+2020-09-18 14:00:50.046 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:50.046 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:50.046 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:50.223 CEST [56036] LOG:  duration: 176.962 ms
+2020-09-18 14:00:50.224 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:50.224 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:50.231 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:50.231 CEST [56036] LOG:  duration: 0.099 ms
+2020-09-18 14:00:50.231 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:50.412 CEST [56036] LOG:  duration: 180.889 ms
+2020-09-18 14:00:50.413 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:50.413 CEST [56036] LOG:  duration: 0.048 ms
+2020-09-18 14:00:50.419 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:50.419 CEST [56036] LOG:  duration: 0.043 ms
+2020-09-18 14:00:50.420 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:50.611 CEST [56036] LOG:  duration: 190.798 ms
+2020-09-18 14:00:50.613 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:50.613 CEST [56036] LOG:  duration: 0.046 ms
+2020-09-18 14:00:50.619 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:50.619 CEST [56036] LOG:  duration: 0.045 ms
+2020-09-18 14:00:50.619 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:50.795 CEST [56036] LOG:  duration: 175.722 ms
+2020-09-18 14:00:50.796 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:50.796 CEST [56036] LOG:  duration: 0.072 ms
+2020-09-18 14:00:50.852 CEST [56036] LOG:  statement: BEGIN
+2020-09-18 14:00:50.852 CEST [56036] LOG:  duration: 0.057 ms
+2020-09-18 14:00:50.852 CEST [56036] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, ST_AsEWKB(city_object.globalconvexhull) AS city_object_globalconvexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE ST_Intersects(ST_SetSRID(ST_MakePoint(4.450846, 51.906183, 0.0), 4979), ST_Transform(city_object.convexhull, 4979)) AND (city_object.object ->> 'type') = 'Building'
+2020-09-18 14:00:51.093 CEST [56036] LOG:  duration: 240.847 ms
+2020-09-18 14:00:51.095 CEST [56036] LOG:  statement: ROLLBACK
+2020-09-18 14:00:51.095 CEST [56036] LOG:  duration: 0.065 ms
+2020-09-18 14:01:10.306 CEST [56007] LOG:  received fast shutdown request
+2020-09-18 14:01:10.306 CEST [56007] LOG:  aborting any active transactions
+2020-09-18 14:01:10.306 CEST [56036] FATAL:  terminating connection due to administrator command
+2020-09-18 14:01:10.308 CEST [56007] LOG:  background worker "logical replication launcher" (PID 56015) exited with exit code 1
+2020-09-18 14:01:10.313 CEST [56010] LOG:  shutting down
+2020-09-18 14:01:10.324 CEST [56007] LOG:  database system is shut down

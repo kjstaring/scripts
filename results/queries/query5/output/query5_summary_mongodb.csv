@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+query5 MongoDB,100,13,7,61,6.41,0.000%,63.09148,12.26,15.40,199.0
+TOTAL,100,13,7,61,6.41,0.000%,63.09148,12.26,15.40,199.0

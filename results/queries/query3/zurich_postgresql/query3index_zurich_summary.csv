@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+query3 PostgreSQL,100,728,688,895,38.19,0.000%,1.37229,26.48,0.34,19761.0
+TOTAL,100,728,688,895,38.19,0.000%,1.37229,26.48,0.34,19761.0

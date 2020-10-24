@@ -1,0 +1,901 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1599575999934,35,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,6,6,http://localhost:5000/graphql,34,0,13
+1599575999935,57,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,8,8,http://localhost:5000/graphql,57,0,13
+1599575999937,60,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,8,8,http://localhost:5000/graphql,60,0,13
+1599575999942,68,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,9,9,http://localhost:5000/graphql,68,0,9
+1599575999955,65,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,65,0,6
+1599575999959,80,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,80,0,11
+1599575999977,65,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,65,0,5
+1599575999986,77,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,77,0,6
+1599576000003,90,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,90,0,5
+1599576000015,114,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,114,0,4
+1599575999983,1000,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,1000,0,5
+1599576000011,1019,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,1019,0,8
+1599576000020,1378,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,1378,0,4
+1599576000130,1314,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,1314,0,4
+1599576000040,1405,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,1404,0,2
+1599576000010,1435,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,1435,0,9
+1599576000094,1379,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,1378,0,3
+1599576000065,1477,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,1477,0,3
+1599576000005,1562,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,1562,0,19
+1599576000043,1536,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,1536,0,5
+1599576001031,5848,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5848,0,1
+1599576000984,5982,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,5982,0,0
+1599576001445,5913,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5913,0,1
+1599576001473,5884,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5884,0,1
+1599576001445,5912,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5912,0,1
+1599576001543,5907,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5907,0,1
+1599576001398,6079,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,6078,0,2
+1599576001567,5923,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,5923,0,1
+1599576001579,5983,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5983,0,1
+1599576001445,6178,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,6178,0,1
+1599576006879,5671,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5671,0,1
+1599576012551,36,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,36,0,1
+1599576012587,33,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,33,0,1
+1599576012621,8,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,8,0,0
+1599576006967,5790,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5789,0,4
+1599576012757,21,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,21,0,1
+1599576012779,8,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,8,0,0
+1599576012787,9,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,9,0,1
+1599576007368,5784,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,5783,0,1
+1599576013152,13,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,13,0,1
+1599576013165,12,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,12,0,1
+1599576013177,7,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,7,0,1
+1599576007368,5932,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5932,0,1
+1599576012631,676,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,676,0,1
+1599576013308,19,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,19,0,0
+1599576013328,4,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,4,0,0
+1599576013301,45,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,45,0,0
+1599576013346,10,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,10,0,1
+1599576007477,5893,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5893,0,1
+1599576013356,30,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,30,0,1
+1599576007491,5895,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5895,0,4
+1599576013371,16,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,16,0,1
+1599576013387,31,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,31,0,1
+1599576007562,5868,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5868,0,3
+1599576013387,25,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,25,0,1
+1599576007450,5989,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5989,0,1
+1599576013445,27,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,27,0,0
+1599576013445,27,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,27,0,0
+1599576007368,6105,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,6105,0,1
+1599576013445,33,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,33,0,0
+1599576013472,41,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,41,0,1
+1599576013445,67,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,67,0,0
+1599576013474,41,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,41,0,0
+1599576013479,37,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,37,0,0
+1599576013514,32,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,32,0,1
+1599576013516,55,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,55,0,1
+1599576013546,26,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,26,0,1
+1599576013517,55,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,55,0,1
+1599576013572,28,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,28,0,1
+1599576012797,827,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,827,0,0
+1599576013625,15,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,15,0,0
+1599576013640,8,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,8,0,1
+1599576007623,6025,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,6025,0,1
+1599576013649,23,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,23,0,1
+1599576013672,9,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,9,0,1
+1599576013682,12,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,11,0,1
+1599576013184,860,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,860,0,1
+1599576014076,25,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,25,0,1
+1599576014102,5,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,4,0,0
+1599576013472,687,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,687,0,1
+1599576014160,25,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,25,0,0
+1599576014185,12,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,12,0,3
+1599576013387,886,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,886,0,1
+1599576013694,588,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,587,0,1
+1599576014274,25,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,25,0,1
+1599576014300,12,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,12,0,2
+1599576013513,839,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,839,0,1
+1599576013572,794,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,794,0,1
+1599576014353,28,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,28,0,0
+1599576014366,20,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,20,0,1
+1599576014381,10,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,10,0,1
+1599576013600,887,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,887,0,1
+1599576013572,848,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,848,0,1
+1599576014387,13,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,0
+1599576014282,215,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,215,0,1
+1599576014606,14,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,14,0,1
+1599576014606,48,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,48,0,1
+1599576014606,56,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,56,0,1
+1599576014655,13,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,1
+1599576014663,10,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,10,0,1
+1599576013648,1360,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,1360,0,1
+1599576013333,1610,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,1610,0,0
+1599576014107,1153,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,1152,0,0
+1599576014197,1236,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,1235,0,1
+1599576014313,1150,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,1150,0,1
+1599576014673,955,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,955,0,1
+1599576014392,1276,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,1276,0,1
+1599576014606,1079,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,1079,0,1
+1599576014668,1073,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,1073,0,1
+1599576014621,1273,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,1273,0,1
+1599576015107,6676,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6676,0,1
+1599576015107,6972,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,6972,0,1
+1599576015536,6600,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,6600,0,1
+1599576015536,6687,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,6687,0,1
+1599576015628,6662,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,6662,0,1
+1599576015260,7102,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,7102,0,0
+1599576015669,6724,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6724,0,0
+1599576015741,6881,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,6881,0,1
+1599576015686,6802,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,6801,0,0
+1599576015894,6831,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,6831,0,1
+1599576021783,5696,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5696,0,1
+1599576027479,11,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,11,0,1
+1599576027491,11,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,11,0,0
+1599576027503,10,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,10,0,0
+1599576022079,5612,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5612,0,1
+1599576027691,11,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,11,0,1
+1599576027703,8,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,7,0,0
+1599576027711,13,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,13,0,2
+1599576027513,312,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,312,0,1
+1599576027826,16,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,16,0,0
+1599576027843,9,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,9,0,0
+1599576022137,5815,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5815,0,0
+1599576022393,5769,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5769,0,1
+1599576027726,489,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,489,0,1
+1599576022291,5838,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5838,0,1
+1599576027952,30,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,30,0,1
+1599576022224,5915,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5915,0,0
+1599576022363,5808,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,5808,0,0
+1599576028267,43,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,43,0,11
+1599576028267,49,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,49,0,12
+1599576028267,52,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,52,0,12
+1599576028279,50,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,49,0,1
+1599576028279,57,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,56,0,1
+1599576028278,73,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,73,0,2
+1599576022754,5608,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5608,0,1
+1599576028310,57,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,57,0,1
+1599576028317,51,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,51,0,0
+1599576028329,52,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,52,0,1
+1599576028320,61,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,61,0,0
+1599576028337,54,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,54,0,3
+1599576028351,45,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,45,0,1
+1599576028363,51,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,51,0,1
+1599576028368,51,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,51,0,1
+1599576028381,46,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,46,0,1
+1599576028392,57,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,57,0,6
+1599576028415,43,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,43,0,0
+1599576028458,18,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,18,0,1
+1599576028476,480,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,480,0,1
+1599576028450,472,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,472,0,0
+1599576028419,452,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,452,0,1
+1599576028368,503,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,503,0,0
+1599576028428,430,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,430,0,0
+1599576022754,5833,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5833,0,1
+1599576022754,5778,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,5778,0,1
+1599576028397,135,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,135,0,1
+1599576028986,81,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,80,0,2
+1599576028986,82,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,82,0,1
+1599576028986,83,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,83,0,1
+1599576028987,96,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,95,0,1
+1599576028985,100,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,100,0,3
+1599576027852,1233,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,1233,0,1
+1599576029067,20,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,20,0,1
+1599576029070,28,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,27,0,1
+1599576028987,121,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,121,0,1
+1599576029069,39,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,39,0,1
+1599576029083,31,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,31,0,2
+1599576028985,131,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,131,0,2
+1599576029085,43,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,43,0,1
+1599576029088,76,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,76,0,0
+1599576029108,68,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,68,0,1
+1599576029108,71,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,71,0,1
+1599576029116,73,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,73,0,1
+1599576028381,1262,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,1262,0,1
+1599576028986,629,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,629,0,1
+1599576029164,452,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,452,0,1
+1599576029180,527,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,527,0,0
+1599576029800,38,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,38,0,1
+1599576029800,41,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,41,0,1
+1599576029800,41,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,41,0,1
+1599576029839,8,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,8,0,1
+1599576029841,13,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,1
+1599576029841,26,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,26,0,1
+1599576029176,1160,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,1159,0,1
+1599576029132,1082,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,1081,0,2
+1599576029115,1128,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,1127,0,1
+1599576029189,1020,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,1020,0,1
+1599576029098,1074,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,1073,0,1
+1599576029867,1035,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,1035,0,1
+1599576029847,952,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,952,0,1
+1599576029854,1005,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,1004,0,1
+1599576029086,6152,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6152,0,0
+1599576029800,5888,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5888,0,1
+1599576030420,5887,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5887,0,1
+1599576030420,5790,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5790,0,1
+1599576030420,5808,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5808,0,1
+1599576030420,5767,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,5767,0,1
+1599576030420,5789,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5789,0,1
+1599576031097,5814,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5814,0,1
+1599576031097,5799,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5799,0,1
+1599576031097,5752,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5751,0,1
+1599576035240,5701,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5701,0,1
+1599576040941,12,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576040954,20,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,20,0,0
+1599576040974,20,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,20,0,2
+1599576040995,273,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,273,0,1
+1599576041464,14,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,14,0,0
+1599576041478,4,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,4,0,1
+1599576035734,5872,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5872,0,1
+1599576042051,13,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576042064,7,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,7,0,0
+1599576042071,7,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,7,0,1
+1599576036434,5811,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5811,0,0
+1599576042245,13,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,13,0,1
+1599576042259,12,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,12,0,1
+1599576042272,11,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,11,0,0
+1599576041483,849,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,849,0,0
+1599576036434,5954,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5954,0,0
+1599576036434,5955,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5955,0,1
+1599576036434,5970,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5970,0,1
+1599576042388,17,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,17,0,1
+1599576042389,29,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,28,0,1
+1599576042405,21,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,21,0,2
+1599576042404,22,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,22,0,1
+1599576042418,15,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,15,0,1
+1599576042426,19,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,19,0,1
+1599576042433,23,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,23,0,1
+1599576042426,41,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,41,0,1
+1599576042468,8,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,8,0,0
+1599576036434,6064,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,6064,0,1
+1599576037099,5921,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5921,0,0
+1599576037099,5906,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5906,0,0
+1599576037099,5913,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,5913,0,0
+1599576042476,459,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,459,0,1
+1599576042446,461,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,461,0,1
+1599576042456,424,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,424,0,1
+1599576042284,505,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,505,0,0
+1599576042079,536,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,536,0,0
+1599576042499,24,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,24,0,0
+1599576043051,39,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,38,0,0
+1599576043051,51,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,51,0,1
+1599576043051,59,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,59,0,1
+1599576043051,72,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,72,0,1
+1599576043051,92,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,92,0,1
+1599576043052,100,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,99,0,0
+1599576043053,114,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,114,0,0
+1599576043052,116,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,116,0,0
+1599576043053,117,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,117,0,0
+1599576043102,70,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,69,0,1
+1599576043090,83,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,83,0,0
+1599576043144,57,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,57,0,1
+1599576043123,78,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,78,0,1
+1599576043152,49,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,49,0,1
+1599576043170,47,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,47,0,3
+1599576043111,122,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,122,0,0
+1599576043168,66,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,65,0,2
+1599576043172,64,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,63,0,1
+1599576043173,96,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,96,0,1
+1599576043201,84,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,83,0,1
+1599576043234,91,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,91,0,1
+1599576043325,480,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,480,0,1
+1599576043285,508,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,508,0,1
+1599576043234,473,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,473,0,1
+1599576043269,528,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,528,0,1
+1599576044034,39,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,39,0,1
+1599576044034,42,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,42,0,1
+1599576044034,42,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,42,0,1
+1599576044074,10,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,10,0,0
+1599576044077,13,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,0
+1599576044034,64,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,64,0,1
+1599576044077,24,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,24,0,1
+1599576044099,28,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,28,0,1
+1599576043218,1101,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,1101,0,0
+1599576043236,1097,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,1097,0,0
+1599576043201,1169,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,1169,0,1
+1599576043173,1278,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,1278,0,1
+1599576043202,1303,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,1303,0,0
+1599576044090,1054,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,1054,0,1
+1599576044101,1047,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,1047,0,1
+1599576044084,963,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,963,0,1
+1599576044127,934,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,934,0,3
+1599576042333,6758,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6758,0,0
+1599576044333,5902,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5902,0,1
+1599576044370,5929,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5929,0,1
+1599576044452,5935,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5935,0,2
+1599576044320,6068,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6068,0,0
+1599576045160,5852,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5852,0,1
+1599576044506,6147,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,6147,0,0
+1599576045161,5923,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5923,0,2
+1599576045160,6008,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,6008,0,2
+1599576045161,5956,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5956,0,1
+1599576049091,5575,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5575,0,1
+1599576054667,15,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,15,0,1
+1599576054684,11,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,11,0,1
+1599576054696,11,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,11,0,1
+1599576054707,247,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,247,0,1
+1599576054955,13,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,13,0,0
+1599576054968,7,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,1
+1599576054977,826,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,826,0,2
+1599576050236,5813,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5813,0,1
+1599576056050,18,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,18,0,0
+1599576056069,10,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,10,0,0
+1599576056079,12,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,12,0,1
+1599576056091,409,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,408,0,1
+1599576050389,5914,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5914,0,0
+1599576050300,5944,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5943,0,0
+1599576050388,5973,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5973,0,1
+1599576056712,28,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,28,0,0
+1599576056712,28,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,28,0,0
+1599576056712,35,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,35,0,1
+1599576056740,19,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,19,0,1
+1599576056712,49,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,49,0,1
+1599576056740,24,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,24,0,1
+1599576056748,29,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,29,0,0
+1599576056762,17,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,17,0,3
+1599576056759,26,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,26,0,1
+1599576056765,37,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,37,0,0
+1599576056777,52,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,51,0,2
+1599576051050,5898,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5898,0,1
+1599576056948,22,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,22,0,1
+1599576056970,15,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,15,0,1
+1599576056986,9,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,9,0,1
+1599576051050,5975,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5975,0,1
+1599576057025,12,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576057038,8,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,8,0,0
+1599576057046,8,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,8,0,1
+1599576051641,6020,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,6020,0,1
+1599576056781,888,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,888,0,1
+1599576051641,6012,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,6012,0,2
+1599576051641,5929,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5929,0,2
+1599576056996,519,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,519,0,1
+1599576057054,374,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,374,0,0
+1599576056830,499,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,499,0,1
+1599576056804,464,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,464,0,1
+1599576056786,482,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,482,0,0
+1599576057716,34,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,34,0,2
+1599576057717,41,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,41,0,1
+1599576057717,53,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,53,0,1
+1599576057716,71,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,70,0,3
+1599576057718,100,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,100,0,1
+1599576057718,112,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,112,0,1
+1599576057771,65,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,65,0,0
+1599576057759,79,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,79,0,1
+1599576057820,28,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,28,0,1
+1599576057787,61,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,61,0,0
+1599576057751,109,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,109,0,0
+1599576057830,30,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,30,0,1
+1599576057719,166,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,166,0,1
+1599576057719,166,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,166,0,1
+1599576057839,61,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,61,0,0
+1599576057848,64,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,64,0,2
+1599576057860,54,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,53,0,1
+1599576057886,42,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,42,0,0
+1599576057886,43,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,43,0,0
+1599576057860,944,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,944,0,1
+1599576057837,923,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,923,0,1
+1599576057929,834,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,834,0,0
+1599576057848,906,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,906,0,2
+1599576057929,773,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,773,0,1
+1599576057913,470,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,470,0,0
+1599576057914,494,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,494,0,0
+1599576057901,378,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,378,0,0
+1599576058821,113,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,113,0,0
+1599576058821,146,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,145,0,0
+1599576058821,146,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,146,0,0
+1599576059017,7,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,1
+1599576059017,14,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,12,0,1
+1599576059017,22,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,22,0,1
+1599576059024,991,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,991,0,0
+1599576059039,986,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,986,0,1
+1599576059032,897,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,897,0,1
+1599576055804,6580,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6580,0,1
+1599576057716,6334,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,6334,0,2
+1599576058820,6062,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,6061,0,1
+1599576058820,6152,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,6152,0,1
+1599576058820,6174,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,6174,0,1
+1599576058820,6282,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6282,0,1
+1599576058820,6338,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,6338,0,1
+1599576060100,5894,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5894,0,1
+1599576060100,5972,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5972,0,1
+1599576060100,6054,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,6054,0,1
+1599576062384,5836,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5836,0,1
+1599576068221,12,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576068233,17,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,17,0,0
+1599576068250,17,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,17,0,1
+1599576068267,213,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,213,0,0
+1599576068481,11,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,11,0,0
+1599576068493,11,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,11,0,0
+1599576068504,764,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,764,0,1
+1599576064050,6050,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,6050,0,1
+1599576070466,12,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576070478,7,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,7,0,1
+1599576070485,8,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,8,0,0
+1599576065104,6084,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,6084,0,2
+1599576064883,6140,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,6140,0,1
+1599576064974,6120,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,6120,0,0
+1599576070493,264,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,264,0,1
+1599576064995,5982,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5982,0,1
+1599576071392,25,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,24,0,1
+1599576071392,30,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,30,0,1
+1599576071392,104,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,104,0,1
+1599576071392,106,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,106,0,1
+1599576071417,108,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,108,0,0
+1599576071422,106,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,106,0,1
+1599576071498,32,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,32,0,1
+1599576071497,42,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,42,0,0
+1599576071392,160,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,159,0,1
+1599576071525,27,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,27,0,1
+1599576071528,29,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,29,0,1
+1599576071539,45,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,45,0,2
+1599576071552,42,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,42,0,1
+1599576071594,17,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,17,0,1
+1599576066074,6221,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,6221,0,0
+1599576071532,832,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,832,0,1
+1599576065895,6209,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,6209,0,1
+1599576066155,6087,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,6087,0,1
+1599576065995,6196,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,6196,0,1
+1599576071557,499,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,499,0,1
+1599576071552,472,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,472,0,1
+1599576071584,400,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,400,0,0
+1599576071611,322,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,322,0,1
+1599576072436,37,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,37,0,1
+1599576072436,52,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,52,0,1
+1599576072436,64,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,64,0,2
+1599576072437,88,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,88,0,1
+1599576072437,107,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,107,0,1
+1599576072437,123,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,123,0,1
+1599576072476,90,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,90,0,1
+1599576072437,130,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,130,0,1
+1599576072489,80,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,80,0,1
+1599576072501,69,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,69,0,1
+1599576072525,55,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,55,0,1
+1599576072545,42,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,42,0,1
+1599576072561,31,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,31,0,1
+1599576072568,25,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,24,0,3
+1599576072570,46,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,45,0,2
+1599576072571,46,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,46,0,2
+1599576072567,63,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,63,0,6
+1599576072438,200,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,200,0,1
+1599576072581,69,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,69,0,0
+1599576072638,55,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,55,0,1
+1599576072694,815,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,815,0,0
+1599576072587,890,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,890,0,1
+1599576072592,907,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,907,0,1
+1599576072593,864,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,864,0,0
+1599576072618,573,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,573,0,1
+1599576072650,469,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,469,0,1
+1599576072616,427,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,427,0,1
+1599576072630,447,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,447,0,1
+1599576073615,58,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,57,0,1
+1599576073615,58,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,58,0,1
+1599576073615,59,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,59,0,1
+1599576073673,13,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,0
+1599576073673,19,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,19,0,1
+1599576073674,27,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,27,0,1
+1599576073615,150,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,150,0,1
+1599576073766,6,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,0
+1599576073772,879,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,879,0,1
+1599576073686,928,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,928,0,1
+1599576073692,848,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,848,0,0
+1599576073701,841,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,841,0,1
+1599576069375,6068,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6068,0,0
+1599576072436,5900,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5900,0,2
+1599576073615,5789,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5789,0,1
+1599576073615,5923,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5923,0,1
+1599576074940,5699,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5699,0,1
+1599576074940,5699,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5699,0,1
+1599576074940,5661,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5661,0,1
+1599576074940,5621,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5621,0,1
+1599576073615,6175,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,6175,0,1
+1599576073615,6159,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6159,0,1
+1599576076146,5570,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5570,0,0
+1599576081964,13,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,13,0,1
+1599576081977,7,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,7,0,0
+1599576081985,10,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,10,0,0
+1599576081996,237,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,237,0,0
+1599576083097,13,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,13,0,1
+1599576083110,7,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,1
+1599576078337,5824,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5824,0,1
+1599576083117,720,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,720,0,0
+1599576084355,20,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,20,0,1
+1599576084375,8,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,8,0,1
+1599576084383,13,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,12,0,1
+1599576084397,274,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,274,0,1
+1599576084671,10,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,10,0,1
+1599576084681,6,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,0
+1599576079516,5952,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5952,0,1
+1599576084687,731,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,731,0,1
+1599576079539,5782,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5782,0,1
+1599576085696,22,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,22,0,1
+1599576085696,31,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,31,0,1
+1599576085718,9,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,9,0,1
+1599576085727,20,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,19,0,1
+1599576085728,29,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,29,0,0
+1599576085747,33,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,33,0,0
+1599576080668,6065,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,6065,0,1
+1599576080668,6060,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,6059,0,1
+1599576080668,6047,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,6047,0,0
+1599576080668,6041,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,6041,0,1
+1599576080668,5965,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,5965,0,1
+1599576080668,5917,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5917,0,0
+1599576085781,310,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,310,0,1
+1599576085757,275,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,275,0,1
+1599576086853,26,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,26,0,1
+1599576086853,29,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,29,0,1
+1599576086853,37,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,37,0,1
+1599576086853,50,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,50,0,1
+1599576086853,57,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,57,0,1
+1599576086854,78,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,78,0,0
+1599576086854,99,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,99,0,0
+1599576086890,63,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,63,0,1
+1599576086904,56,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,56,0,0
+1599576086934,43,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,42,0,1
+1599576086911,67,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,67,0,0
+1599576086880,105,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,105,0,0
+1599576086953,33,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,33,0,1
+1599576086961,56,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,56,0,0
+1599576086882,135,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,135,0,1
+1599576086953,70,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,70,0,1
+1599576086854,170,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,169,0,1
+1599576086979,72,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,72,0,0
+1599576086986,76,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,75,0,0
+1599576086986,84,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,84,0,0
+1599576087017,63,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,63,0,2
+1599576087024,65,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,64,0,0
+1599576086977,905,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,905,0,0
+1599576087089,770,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,770,0,0
+1599576087024,637,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,637,0,0
+1599576087051,610,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,610,0,1
+1599576087062,499,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,499,0,6
+1599576087081,479,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,479,0,0
+1599576087017,524,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,524,0,2
+1599576087070,463,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,463,0,0
+1599576088064,60,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,60,0,1
+1599576088064,78,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,78,0,1
+1599576088065,85,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,85,0,1
+1599576088125,36,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,36,0,0
+1599576088065,102,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,102,0,1
+1599576088143,24,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,24,0,1
+1599576088151,18,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,17,0,0
+1599576088167,21,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,21,0,1
+1599576088065,149,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,148,0,1
+1599576088065,149,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,149,0,1
+1599576088214,6,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,0
+1599576088214,16,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,15,0,0
+1599576088220,931,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,931,0,1
+1599576088161,943,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,943,0,1
+1599576088188,910,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,910,0,1
+1599576088167,920,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,920,0,1
+1599576088169,879,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,879,0,0
+1599576088230,805,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,805,0,0
+1599576084355,6073,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6073,0,1
+1599576085696,5833,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5833,0,1
+1599576088064,5911,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5911,0,1
+1599576088064,5950,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5950,0,1
+1599576089343,5913,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5912,0,0
+1599576089342,5857,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5857,0,1
+1599576089342,5912,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5912,0,1
+1599576089342,5774,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5774,0,1
+1599576089342,5830,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5830,0,1
+1599576089343,6104,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6104,0,0
+1599576090709,5806,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5806,0,0
+1599576096583,12,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,12,0,1
+1599576096595,9,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,9,0,1
+1599576096604,13,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,13,0,1
+1599576096617,275,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,275,0,1
+1599576091897,5865,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5865,0,0
+1599576096893,14,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,14,0,0
+1599576097913,7,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,1
+1599576097913,22,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,22,0,1
+1599576097935,8,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,8,0,1
+1599576097944,11,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,11,0,0
+1599576097920,757,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,756,0,1
+1599576097956,409,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,409,0,0
+1599576099199,21,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,21,0,1
+1599576099221,7,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,1
+1599576094015,5985,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5985,0,0
+1599576093975,5952,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5952,0,1
+1599576099228,694,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,694,0,1
+1599576100425,25,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,25,0,1
+1599576100425,25,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,25,0,1
+1599576100450,10,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,10,0,1
+1599576100450,18,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,18,0,1
+1599576100460,8,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,8,0,1
+1599576100468,17,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,16,0,1
+1599576100469,315,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,315,0,0
+1599576100784,13,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,13,0,1
+1599576100797,7,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,1
+1599576100485,344,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,344,0,0
+1599576100829,20,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,20,0,0
+1599576100850,8,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,8,0,1
+1599576100806,908,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,908,0,0
+1599576100858,811,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,811,0,1
+1599576095448,6185,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,6185,0,1
+1599576095265,6294,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,6294,0,1
+1599576095265,6194,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,6194,0,1
+1599576095265,6187,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,6187,0,1
+1599576095264,6161,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,6161,0,1
+1599576095265,6144,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,6144,0,0
+1599576101797,36,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,36,0,0
+1599576101797,36,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,36,0,0
+1599576101797,53,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,53,0,0
+1599576101797,54,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,53,0,1
+1599576101797,54,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,54,0,1
+1599576101834,45,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,44,0,0
+1599576101797,92,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,92,0,1
+1599576101851,56,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,55,0,1
+1599576101834,74,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,74,0,0
+1599576101879,32,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,31,0,0
+1599576101889,25,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,25,0,1
+1599576101908,20,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,20,0,1
+1599576101909,26,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,26,0,0
+1599576101915,37,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,37,0,0
+1599576101850,114,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,114,0,1
+1599576101851,127,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,127,0,0
+1599576101965,28,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,28,0,0
+1599576101978,28,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,28,0,1
+1599576101935,538,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,538,0,1
+1599576102006,431,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,431,0,1
+1599576101911,520,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,520,0,0
+1599576101993,436,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,436,0,1
+1599576101952,410,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,410,0,1
+1599576101928,377,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,377,0,1
+1599576102904,55,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,55,0,0
+1599576102904,58,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,58,0,0
+1599576102904,63,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,63,0,0
+1599576102904,73,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,73,0,0
+1599576102904,78,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,78,0,1
+1599576102959,24,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,24,0,1
+1599576102904,97,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,96,0,1
+1599576102962,41,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,41,0,1
+1599576102967,36,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,36,0,1
+1599576102977,42,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,42,0,1
+1599576102983,43,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,42,0,0
+1599576103001,48,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,48,0,1
+1599576103019,864,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,864,0,1
+1599576102983,891,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,891,0,0
+1599576103026,850,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,850,0,0
+1599576103003,829,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,829,0,1
+1599576103004,819,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,819,0,0
+1599576103049,761,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,761,0,0
+1599576099199,6026,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,6025,0,1
+1599576100425,5907,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5907,0,1
+1599576101797,5975,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5975,0,1
+1599576101797,5877,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,5877,0,1
+1599576104113,5723,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5723,0,1
+1599576104113,5780,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5780,0,1
+1599576104113,6045,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,6044,0,1
+1599576104114,5979,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5979,0,0
+1599576104113,5892,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5892,0,1
+1599576104113,5888,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5888,0,1
+1599576105451,5535,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5535,0,0
+1599576111837,11,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,11,0,0
+1599576111848,9,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,9,0,1
+1599576111857,15,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,15,0,1
+1599576106775,5580,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5580,0,1
+1599576111873,225,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,225,0,3
+1599576112956,19,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,19,0,1
+1599576112956,19,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,19,0,1
+1599576112975,6,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,1
+1599576112975,16,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,16,0,1
+1599576112991,15,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,15,0,1
+1599576113006,254,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,254,0,1
+1599576113260,10,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,9,0,0
+1599576113270,6,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,5,0,0
+1599576113276,692,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,692,0,0
+1599576112981,824,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,824,0,1
+1599576107965,5621,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5621,0,1
+1599576107965,5665,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5665,0,1
+1599576114233,27,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,27,0,0
+1599576114233,37,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,36,0,1
+1599576114260,10,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,10,0,0
+1599576114270,15,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,15,0,1
+1599576114270,15,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,15,0,1
+1599576114286,64,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,64,0,0
+1599576109836,5552,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5552,0,0
+1599576114350,299,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,299,0,1
+1599576114286,297,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,297,0,0
+1599576109893,5568,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,5568,0,0
+1599576115463,29,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,29,0,1
+1599576115463,45,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,45,0,1
+1599576115463,46,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,46,0,1
+1599576115509,13,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,0
+1599576115464,59,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,59,0,0
+1599576115523,18,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,17,0,1
+1599576115493,50,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,50,0,0
+1599576115509,35,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,35,0,1
+1599576115543,29,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,29,0,1
+1599576115544,37,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,37,0,1
+1599576110607,5838,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,5838,0,1
+1599576110607,5828,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5828,0,1
+1599576110607,5768,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5768,0,1
+1599576110607,5759,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5759,0,1
+1599576115541,771,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,771,0,0
+1599576115523,789,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,789,0,1
+1599576115582,474,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,474,0,0
+1599576115572,440,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,440,0,1
+1599576116611,31,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,31,0,1
+1599576116611,31,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,31,0,1
+1599576116612,57,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,57,0,0
+1599576116611,59,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,59,0,1
+1599576116611,66,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,66,0,1
+1599576116669,19,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,19,0,1
+1599576116642,60,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,60,0,1
+1599576116677,34,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,34,0,1
+1599576116702,30,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,30,0,0
+1599576116612,123,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,123,0,0
+1599576116711,26,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,26,0,1
+1599576116642,109,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,109,0,1
+1599576116670,86,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,86,0,0
+1599576116735,23,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,23,0,1
+1599576116751,110,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,110,0,0
+1599576116756,105,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,105,0,1
+1599576116758,857,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,857,0,0
+1599576116688,860,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,860,0,1
+1599576116862,411,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,411,0,0
+1599576116862,396,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,396,0,1
+1599576116732,430,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,430,0,1
+1599576116738,408,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,408,0,0
+1599576117785,57,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,57,0,0
+1599576117785,60,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,60,0,0
+1599576117785,64,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,64,0,0
+1599576117843,7,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,0
+1599576117845,13,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,13,0,2
+1599576117849,17,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,17,0,0
+1599576117785,125,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,125,0,1
+1599576117910,6,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,0
+1599576117916,853,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,853,0,1
+1599576117858,837,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,837,0,1
+1599576117850,817,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,817,0,0
+1599576117867,766,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,766,0,1
+1599576114233,5859,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,5859,0,0
+1599576114233,5883,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,5883,0,1
+1599576116611,5854,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5854,0,1
+1599576116611,6063,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,6063,0,1
+1599576117785,6009,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,6009,0,0
+1599576117785,5951,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5951,0,0
+1599576119074,5925,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5925,0,0
+1599576119074,5875,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5875,0,0
+1599576119074,5832,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,5832,0,0
+1599576119074,5874,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5874,0,0
+1599576120400,5764,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5764,0,0
+1599576120400,5708,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5708,0,0
+1599576126393,17,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,17,0,0
+1599576126393,22,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,22,0,0
+1599576126410,7,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,7,0,0
+1599576126416,12,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,12,0,0
+1599576126417,22,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,22,0,1
+1599576126428,30,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,30,0,1
+1599576126440,289,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,289,0,0
+1599576126458,307,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,307,0,0
+1599576127540,21,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,10,10,http://localhost:5000/graphql,21,0,1
+1599576127540,28,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,28,0,1
+1599576127561,7,query1 PostgreSQL,200,OK,10users 2-4,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,1
+1599576127568,7,query1 PostgreSQL,200,OK,10users 2-1,text,true,,225,277,10,10,http://localhost:5000/graphql,6,0,1
+1599576122674,5859,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,10,10,http://localhost:5000/graphql,5859,0,0
+1599576122465,5915,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,10,10,http://localhost:5000/graphql,5915,0,1
+1599576127575,756,query2 PostgreSQL ,200,OK,10users 2-1,text,true,,198,251,10,10,http://localhost:5000/graphql,756,0,0
+1599576127568,710,query2 PostgreSQL ,200,OK,10users 2-4,text,true,,198,251,10,10,http://localhost:5000/graphql,710,0,1
+1599576128796,28,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,10,10,http://localhost:5000/graphql,28,0,1
+1599576128796,34,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,10,10,http://localhost:5000/graphql,34,0,1
+1599576128824,18,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,10,10,http://localhost:5000/graphql,18,0,0
+1599576128830,12,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,10,10,http://localhost:5000/graphql,12,0,1
+1599576128842,14,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,10,10,http://localhost:5000/graphql,14,0,0
+1599576128842,38,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,10,10,http://localhost:5000/graphql,38,0,0
+1599576123853,5903,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,10,10,http://localhost:5000/graphql,5903,0,1
+1599576128881,299,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,10,10,http://localhost:5000/graphql,299,0,0
+1599576123853,5854,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,10,10,http://localhost:5000/graphql,5854,0,1
+1599576128856,330,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,10,10,http://localhost:5000/graphql,329,0,0
+1599576130007,28,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,10,10,http://localhost:5000/graphql,28,0,0
+1599576130007,36,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,10,10,http://localhost:5000/graphql,36,0,0
+1599576130007,38,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,10,10,http://localhost:5000/graphql,38,0,0
+1599576130007,49,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,10,10,http://localhost:5000/graphql,49,0,0
+1599576130043,14,query1 PostgreSQL,200,OK,10users 2-5,text,true,,225,277,10,10,http://localhost:5000/graphql,14,0,1
+1599576130035,29,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,10,10,http://localhost:5000/graphql,29,0,1
+1599576130056,12,query1 PostgreSQL,200,OK,10users 2-7,text,true,,225,277,10,10,http://localhost:5000/graphql,12,0,1
+1599576130045,42,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,10,10,http://localhost:5000/graphql,41,0,1
+1599576130064,34,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,10,10,http://localhost:5000/graphql,34,0,1
+1599576130087,32,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,10,10,http://localhost:5000/graphql,32,0,0
+1599576130098,323,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,10,10,http://localhost:5000/graphql,323,0,1
+1599576130422,12,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,10,10,http://localhost:5000/graphql,12,0,0
+1599576130434,7,query1 PostgreSQL,200,OK,10users 2-10,text,true,,225,277,10,10,http://localhost:5000/graphql,7,0,0
+1599576130441,723,query2 PostgreSQL ,200,OK,10users 2-10,text,true,,198,251,10,10,http://localhost:5000/graphql,723,0,1
+1599576125087,5981,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,10,10,http://localhost:5000/graphql,5981,0,1
+1599576125087,5977,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,10,10,http://localhost:5000/graphql,5977,0,1
+1599576125087,5971,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,10,10,http://localhost:5000/graphql,5971,0,1
+1599576125088,5896,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,10,10,http://localhost:5000/graphql,5896,0,0
+1599576130057,882,query2 PostgreSQL ,200,OK,10users 2-5,text,true,,198,251,10,10,http://localhost:5000/graphql,882,0,1
+1599576130068,870,query2 PostgreSQL ,200,OK,10users 2-7,text,true,,198,251,10,10,http://localhost:5000/graphql,870,0,1
+1599576130119,408,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,10,10,http://localhost:5000/graphql,408,0,1
+1599576131265,35,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,10,10,http://localhost:5000/graphql,35,0,1
+1599576131265,43,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,10,10,http://localhost:5000/graphql,43,0,1
+1599576131265,45,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,10,10,http://localhost:5000/graphql,45,0,1
+1599576131265,53,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,10,10,http://localhost:5000/graphql,53,0,1
+1599576131319,38,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,10,10,http://localhost:5000/graphql,38,0,0
+1599576131357,14,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,10,10,http://localhost:5000/graphql,14,0,1
+1599576131300,85,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,10,10,http://localhost:5000/graphql,85,0,1
+1599576131311,74,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,10,10,http://localhost:5000/graphql,74,0,3
+1599576131308,78,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,10,10,http://localhost:5000/graphql,78,0,2
+1599576131385,29,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,10,10,http://localhost:5000/graphql,29,0,1
+1599576131385,30,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,10,10,http://localhost:5000/graphql,30,0,1
+1599576131387,28,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,10,10,http://localhost:5000/graphql,28,0,0
+1599576131267,196,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,10,10,http://localhost:5000/graphql,195,0,0
+1599576131463,5,query1 PostgreSQL,200,OK,10users 2-3,text,true,,225,277,10,10,http://localhost:5000/graphql,5,0,0
+1599576131468,747,query2 PostgreSQL ,200,OK,10users 2-3,text,true,,198,251,10,10,http://localhost:5000/graphql,747,0,1
+1599576131416,489,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,10,10,http://localhost:5000/graphql,489,0,1
+1599576131415,477,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,10,10,http://localhost:5000/graphql,477,0,0
+1599576131372,389,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,10,10,http://localhost:5000/graphql,389,0,1
+1599576131414,413,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,10,10,http://localhost:5000/graphql,413,0,0
+1599576132415,33,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,10,10,http://localhost:5000/graphql,33,0,0
+1599576132415,48,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,10,10,http://localhost:5000/graphql,48,0,0
+1599576132449,19,query1 PostgreSQL,200,OK,10users 2-9,text,true,,225,277,10,10,http://localhost:5000/graphql,19,0,0
+1599576132415,66,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,10,10,http://localhost:5000/graphql,66,0,0
+1599576132463,18,query1 PostgreSQL,200,OK,10users 2-2,text,true,,225,277,10,10,http://localhost:5000/graphql,18,0,1
+1599576132481,16,query1 PostgreSQL,200,OK,10users 2-6,text,true,,225,277,10,10,http://localhost:5000/graphql,16,0,1
+1599576132415,112,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,10,10,http://localhost:5000/graphql,112,0,0
+1599576132528,5,query1 PostgreSQL,200,OK,10users 2-8,text,true,,225,277,10,10,http://localhost:5000/graphql,5,0,0
+1599576132533,817,query2 PostgreSQL ,200,OK,10users 2-8,text,true,,198,251,10,10,http://localhost:5000/graphql,817,0,1
+1599576132481,852,query2 PostgreSQL ,200,OK,10users 2-2,text,true,,198,251,10,10,http://localhost:5000/graphql,852,0,1
+1599576132468,824,query2 PostgreSQL ,200,OK,10users 2-9,text,true,,198,251,10,10,http://localhost:5000/graphql,824,0,1
+1599576132497,750,query2 PostgreSQL ,200,OK,10users 2-6,text,true,,198,251,10,10,http://localhost:5000/graphql,750,0,1
+1599576128796,6044,query3 PostgreSQL,200,OK,10users 2-4,text,true,,2859,251,10,10,http://localhost:5000/graphql,6044,0,1
+1599576128796,5973,query3 PostgreSQL,200,OK,10users 2-1,text,true,,2859,251,10,10,http://localhost:5000/graphql,5973,0,1
+1599576131266,5964,query3 PostgreSQL,200,OK,10users 2-7,text,true,,2859,251,10,10,http://localhost:5000/graphql,5964,0,1
+1599576131265,5965,query3 PostgreSQL,200,OK,10users 2-10,text,true,,2859,251,10,10,http://localhost:5000/graphql,5965,0,1
+1599576131266,6153,query3 PostgreSQL,200,OK,10users 2-5,text,true,,2859,251,10,10,http://localhost:5000/graphql,6153,0,0
+1599576132415,5963,query3 PostgreSQL,200,OK,10users 2-3,text,true,,2859,251,10,10,http://localhost:5000/graphql,5963,0,0
+1599576133685,5896,query3 PostgreSQL,200,OK,10users 2-2,text,true,,2859,251,10,10,http://localhost:5000/graphql,5896,0,0
+1599576133685,5893,query3 PostgreSQL,200,OK,10users 2-8,text,true,,2859,251,10,10,http://localhost:5000/graphql,5893,0,0
+1599576133685,5839,query3 PostgreSQL,200,OK,10users 2-6,text,true,,2859,251,10,10,http://localhost:5000/graphql,5839,0,0
+1599576133685,5782,query3 PostgreSQL,200,OK,10users 2-9,text,true,,2859,251,10,10,http://localhost:5000/graphql,5782,0,0
+1599576134958,5811,query4 PostgreSQL,200,OK,10users 2-4,text,true,,214,248,10,10,http://localhost:5000/graphql,5811,0,1
+1599576134958,5741,query4 PostgreSQL,200,OK,10users 2-1,text,true,,214,248,10,10,http://localhost:5000/graphql,5741,0,1
+1599576140989,18,query5 PostgreSQL,200,OK,10users 2-4,text,true,,196,268,10,10,http://localhost:5000/graphql,18,0,1
+1599576140989,19,query5 PostgreSQL,200,OK,10users 2-1,text,true,,196,268,10,10,http://localhost:5000/graphql,19,0,1
+1599576141007,13,query6a PostgreSQL,200,OK,10users 2-4,text,true,,219,247,10,10,http://localhost:5000/graphql,13,0,1
+1599576141008,13,query6a PostgreSQL,200,OK,10users 2-1,text,true,,219,247,10,10,http://localhost:5000/graphql,13,0,0
+1599576141020,17,query6b PostgreSQL,200,OK,10users 2-4,text,true,,403,259,10,10,http://localhost:5000/graphql,17,0,1
+1599576141021,25,query6b PostgreSQL,200,OK,10users 2-1,text,true,,403,259,10,10,http://localhost:5000/graphql,25,0,1
+1599576141046,343,query6c PostgreSQL,200,OK,10users 2-1,text,true,,3170,389,10,10,http://localhost:5000/graphql,343,0,0
+1599576141037,281,query6c PostgreSQL,200,OK,10users 2-4,text,true,,3170,389,10,10,http://localhost:5000/graphql,281,0,1
+1599576142172,29,query7 PostgreSQL,200,OK,10users 2-1,text,true,,508,289,10,10,http://localhost:5000/graphql,29,0,0
+1599576142172,95,query7 PostgreSQL,200,OK,10users 2-4,text,true,,508,289,9,9,http://localhost:5000/graphql,95,0,0
+1599576137419,5715,query4 PostgreSQL,200,OK,10users 2-5,text,true,,214,248,8,8,http://localhost:5000/graphql,5715,0,0
+1599576137231,5815,query4 PostgreSQL,200,OK,10users 2-10,text,true,,214,248,8,8,http://localhost:5000/graphql,5815,0,0
+1599576137230,5816,query4 PostgreSQL,200,OK,10users 2-7,text,true,,214,248,8,8,http://localhost:5000/graphql,5816,0,1
+1599576143344,20,query5 PostgreSQL,200,OK,10users 2-7,text,true,,196,268,8,8,http://localhost:5000/graphql,20,0,0
+1599576143344,21,query5 PostgreSQL,200,OK,10users 2-10,text,true,,196,268,8,8,http://localhost:5000/graphql,21,0,0
+1599576143344,28,query5 PostgreSQL,200,OK,10users 2-5,text,true,,196,268,8,8,http://localhost:5000/graphql,28,0,0
+1599576143365,15,query6a PostgreSQL,200,OK,10users 2-7,text,true,,219,247,8,8,http://localhost:5000/graphql,15,0,0
+1599576143365,21,query6a PostgreSQL,200,OK,10users 2-10,text,true,,219,247,8,8,http://localhost:5000/graphql,21,0,1
+1599576143372,29,query6a PostgreSQL,200,OK,10users 2-5,text,true,,219,247,8,8,http://localhost:5000/graphql,29,0,2
+1599576143380,31,query6b PostgreSQL,200,OK,10users 2-7,text,true,,403,259,8,8,http://localhost:5000/graphql,31,0,0
+1599576143386,26,query6b PostgreSQL,200,OK,10users 2-10,text,true,,403,259,8,8,http://localhost:5000/graphql,26,0,2
+1599576143401,28,query6b PostgreSQL,200,OK,10users 2-5,text,true,,403,259,8,8,http://localhost:5000/graphql,28,0,0
+1599576138430,5624,query4 PostgreSQL,200,OK,10users 2-3,text,true,,214,248,8,8,http://localhost:5000/graphql,5624,0,1
+1599576143429,329,query6c PostgreSQL,200,OK,10users 2-5,text,true,,3170,389,8,8,http://localhost:5000/graphql,329,0,2
+1599576143412,327,query6c PostgreSQL,200,OK,10users 2-10,text,true,,3170,389,8,8,http://localhost:5000/graphql,327,0,1
+1599576143411,285,query6c PostgreSQL,200,OK,10users 2-7,text,true,,3170,389,8,8,http://localhost:5000/graphql,285,0,1
+1599576144291,33,query5 PostgreSQL,200,OK,10users 2-3,text,true,,196,268,8,8,http://localhost:5000/graphql,33,0,0
+1599576144291,36,query7 PostgreSQL,200,OK,10users 2-5,text,true,,508,289,8,8,http://localhost:5000/graphql,36,0,0
+1599576144291,41,query7 PostgreSQL,200,OK,10users 2-10,text,true,,508,289,7,7,http://localhost:5000/graphql,41,0,0
+1599576144291,42,query7 PostgreSQL,200,OK,10users 2-7,text,true,,508,289,6,6,http://localhost:5000/graphql,42,0,0
+1599576144324,10,query6a PostgreSQL,200,OK,10users 2-3,text,true,,219,247,5,5,http://localhost:5000/graphql,10,0,1
+1599576144334,12,query6b PostgreSQL,200,OK,10users 2-3,text,true,,403,259,5,5,http://localhost:5000/graphql,12,0,1
+1599576144347,195,query6c PostgreSQL,200,OK,10users 2-3,text,true,,3170,389,5,5,http://localhost:5000/graphql,195,0,0
+1599576144542,19,query7 PostgreSQL,200,OK,10users 2-3,text,true,,508,289,5,5,http://localhost:5000/graphql,19,0,1
+1599576139666,5227,query4 PostgreSQL,200,OK,10users 2-2,text,true,,214,248,4,4,http://localhost:5000/graphql,5227,0,1
+1599576139666,5221,query4 PostgreSQL,200,OK,10users 2-8,text,true,,214,248,4,4,http://localhost:5000/graphql,5221,0,1
+1599576139666,5202,query4 PostgreSQL,200,OK,10users 2-6,text,true,,214,248,4,4,http://localhost:5000/graphql,5202,0,1
+1599576139666,5175,query4 PostgreSQL,200,OK,10users 2-9,text,true,,214,248,4,4,http://localhost:5000/graphql,5175,0,1
+1599576145002,19,query5 PostgreSQL,200,OK,10users 2-9,text,true,,196,268,4,4,http://localhost:5000/graphql,19,0,1
+1599576145002,27,query5 PostgreSQL,200,OK,10users 2-6,text,true,,196,268,4,4,http://localhost:5000/graphql,27,0,1
+1599576145002,45,query5 PostgreSQL,200,OK,10users 2-2,text,true,,196,268,4,4,http://localhost:5000/graphql,45,0,1
+1599576145002,49,query5 PostgreSQL,200,OK,10users 2-8,text,true,,196,268,4,4,http://localhost:5000/graphql,49,0,1
+1599576145021,30,query6a PostgreSQL,200,OK,10users 2-9,text,true,,219,247,4,4,http://localhost:5000/graphql,30,0,1
+1599576145030,34,query6a PostgreSQL,200,OK,10users 2-6,text,true,,219,247,4,4,http://localhost:5000/graphql,33,0,1
+1599576145051,23,query6a PostgreSQL,200,OK,10users 2-8,text,true,,219,247,4,4,http://localhost:5000/graphql,22,0,0
+1599576145047,31,query6a PostgreSQL,200,OK,10users 2-2,text,true,,219,247,4,4,http://localhost:5000/graphql,31,0,1
+1599576145052,32,query6b PostgreSQL,200,OK,10users 2-9,text,true,,403,259,4,4,http://localhost:5000/graphql,32,0,0
+1599576145064,33,query6b PostgreSQL,200,OK,10users 2-6,text,true,,403,259,4,4,http://localhost:5000/graphql,33,0,1
+1599576145084,182,query6c PostgreSQL,200,OK,10users 2-9,text,true,,3170,389,4,4,http://localhost:5000/graphql,182,0,1
+1599576145097,162,query6c PostgreSQL,200,OK,10users 2-6,text,true,,3170,389,4,4,http://localhost:5000/graphql,162,0,1
+1599576145078,46,query6b PostgreSQL,200,OK,10users 2-2,text,true,,403,259,4,4,http://localhost:5000/graphql,46,0,1
+1599576145074,39,query6b PostgreSQL,200,OK,10users 2-8,text,true,,403,259,4,4,http://localhost:5000/graphql,39,0,1
+1599576145375,43,query7 PostgreSQL,200,OK,10users 2-6,text,true,,508,289,4,4,http://localhost:5000/graphql,43,0,1
+1599576145375,43,query7 PostgreSQL,200,OK,10users 2-9,text,true,,508,289,4,4,http://localhost:5000/graphql,43,0,1
+1599576145375,182,query6c PostgreSQL,200,OK,10users 2-8,text,true,,3170,389,2,2,http://localhost:5000/graphql,182,0,1
+1599576145375,183,query6c PostgreSQL,200,OK,10users 2-2,text,true,,3170,389,2,2,http://localhost:5000/graphql,183,0,1
+1599576145558,14,query7 PostgreSQL,200,OK,10users 2-2,text,true,,508,289,2,2,http://localhost:5000/graphql,14,0,1
+1599576145557,23,query7 PostgreSQL,200,OK,10users 2-8,text,true,,508,289,1,1,http://localhost:5000/graphql,23,0,1

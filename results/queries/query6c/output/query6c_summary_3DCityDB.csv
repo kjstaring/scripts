@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+query6c 3DCityDB,100,81,52,273,26.82,0.000%,12.03369,44.29,5.23,3769.1
+TOTAL,100,81,52,273,26.82,0.000%,12.03369,44.29,5.23,3769.1

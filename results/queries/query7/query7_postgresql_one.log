@@ -1,0 +1,1791 @@
+2020-09-03 18:55:02.212 CEST [53037] LOG:  database system was shut down at 2020-09-03 18:54:52 CEST
+2020-09-03 18:55:02.217 CEST [53035] LOG:  database system is ready to accept connections
+2020-09-03 18:55:52.219 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.220 CEST [53066] LOG:  duration: 0.207 ms
+2020-09-03 18:55:52.220 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.247 CEST [53066] LOG:  duration: 26.925 ms
+2020-09-03 18:55:52.255 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.255 CEST [53068] LOG:  duration: 0.216 ms
+2020-09-03 18:55:52.255 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.274 CEST [53068] LOG:  duration: 19.270 ms
+2020-09-03 18:55:52.275 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.275 CEST [53068] LOG:  duration: 0.077 ms
+2020-09-03 18:55:52.278 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.281 CEST [53066] LOG:  duration: 2.712 ms
+2020-09-03 18:55:52.282 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.282 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:52.293 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.293 CEST [53068] LOG:  duration: 0.130 ms
+2020-09-03 18:55:52.294 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.299 CEST [53068] LOG:  duration: 5.691 ms
+2020-09-03 18:55:52.302 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.303 CEST [53066] LOG:  duration: 0.248 ms
+2020-09-03 18:55:52.304 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.305 CEST [53066] LOG:  duration: 0.829 ms
+2020-09-03 18:55:52.307 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.307 CEST [53066] LOG:  duration: 0.072 ms
+2020-09-03 18:55:52.309 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.314 CEST [53068] LOG:  duration: 5.404 ms
+2020-09-03 18:55:52.317 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.317 CEST [53068] LOG:  duration: 0.148 ms
+2020-09-03 18:55:52.331 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.331 CEST [53066] LOG:  duration: 0.128 ms
+2020-09-03 18:55:52.331 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.331 CEST [53066] LOG:  duration: 0.291 ms
+2020-09-03 18:55:52.336 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.340 CEST [53068] LOG:  duration: 6.552 ms
+2020-09-03 18:55:52.340 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.340 CEST [53068] LOG:  duration: 0.157 ms
+2020-09-03 18:55:52.341 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.342 CEST [53068] LOG:  duration: 0.103 ms
+2020-09-03 18:55:52.343 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.343 CEST [53066] LOG:  duration: 0.266 ms
+2020-09-03 18:55:52.347 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.348 CEST [53066] LOG:  duration: 0.747 ms
+2020-09-03 18:55:52.367 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.367 CEST [53068] LOG:  duration: 0.123 ms
+2020-09-03 18:55:52.367 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.367 CEST [53068] LOG:  duration: 0.298 ms
+2020-09-03 18:55:52.369 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.370 CEST [53066] LOG:  duration: 0.138 ms
+2020-09-03 18:55:52.370 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.370 CEST [53066] LOG:  duration: 0.198 ms
+2020-09-03 18:55:52.370 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.370 CEST [53066] LOG:  duration: 0.114 ms
+2020-09-03 18:55:52.372 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.372 CEST [53068] LOG:  duration: 0.315 ms
+2020-09-03 18:55:52.375 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.375 CEST [53068] LOG:  duration: 0.102 ms
+2020-09-03 18:55:52.389 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.389 CEST [53066] LOG:  duration: 0.099 ms
+2020-09-03 18:55:52.389 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.390 CEST [53066] LOG:  duration: 0.283 ms
+2020-09-03 18:55:52.391 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.391 CEST [53068] LOG:  duration: 0.037 ms
+2020-09-03 18:55:52.392 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.392 CEST [53068] LOG:  duration: 0.239 ms
+2020-09-03 18:55:52.393 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.393 CEST [53068] LOG:  duration: 0.048 ms
+2020-09-03 18:55:52.399 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.399 CEST [53066] LOG:  duration: 0.371 ms
+2020-09-03 18:55:52.401 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.401 CEST [53066] LOG:  duration: 0.122 ms
+2020-09-03 18:55:52.419 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.420 CEST [53068] LOG:  duration: 0.050 ms
+2020-09-03 18:55:52.420 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.420 CEST [53068] LOG:  duration: 0.872 ms
+2020-09-03 18:55:52.423 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.423 CEST [53066] LOG:  duration: 0.049 ms
+2020-09-03 18:55:52.423 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.423 CEST [53066] LOG:  duration: 0.191 ms
+2020-09-03 18:55:52.424 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.424 CEST [53066] LOG:  duration: 0.047 ms
+2020-09-03 18:55:52.424 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.425 CEST [53068] LOG:  duration: 0.295 ms
+2020-09-03 18:55:52.426 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.427 CEST [53068] LOG:  duration: 0.087 ms
+2020-09-03 18:55:52.441 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.441 CEST [53066] LOG:  duration: 0.356 ms
+2020-09-03 18:55:52.441 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.441 CEST [53066] LOG:  duration: 0.315 ms
+2020-09-03 18:55:52.443 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.443 CEST [53068] LOG:  duration: 0.062 ms
+2020-09-03 18:55:52.444 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.444 CEST [53068] LOG:  duration: 0.220 ms
+2020-09-03 18:55:52.444 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.444 CEST [53068] LOG:  duration: 0.149 ms
+2020-09-03 18:55:52.446 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.446 CEST [53066] LOG:  duration: 0.215 ms
+2020-09-03 18:55:52.447 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.447 CEST [53066] LOG:  duration: 0.079 ms
+2020-09-03 18:55:52.458 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.458 CEST [53068] LOG:  duration: 0.109 ms
+2020-09-03 18:55:52.459 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.459 CEST [53068] LOG:  duration: 0.254 ms
+2020-09-03 18:55:52.462 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.462 CEST [53066] LOG:  duration: 0.050 ms
+2020-09-03 18:55:52.462 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.462 CEST [53066] LOG:  duration: 0.145 ms
+2020-09-03 18:55:52.462 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.462 CEST [53066] LOG:  duration: 0.049 ms
+2020-09-03 18:55:52.464 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.464 CEST [53068] LOG:  duration: 0.283 ms
+2020-09-03 18:55:52.466 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.466 CEST [53068] LOG:  duration: 0.082 ms
+2020-09-03 18:55:52.481 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.481 CEST [53066] LOG:  duration: 0.064 ms
+2020-09-03 18:55:52.481 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.481 CEST [53066] LOG:  duration: 0.384 ms
+2020-09-03 18:55:52.486 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.486 CEST [53068] LOG:  duration: 0.075 ms
+2020-09-03 18:55:52.486 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.487 CEST [53068] LOG:  duration: 0.292 ms
+2020-09-03 18:55:52.487 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.487 CEST [53068] LOG:  duration: 0.120 ms
+2020-09-03 18:55:52.490 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.490 CEST [53066] LOG:  duration: 0.320 ms
+2020-09-03 18:55:52.493 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.493 CEST [53066] LOG:  duration: 0.071 ms
+2020-09-03 18:55:52.508 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.508 CEST [53068] LOG:  duration: 0.059 ms
+2020-09-03 18:55:52.508 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.508 CEST [53068] LOG:  duration: 0.401 ms
+2020-09-03 18:55:52.511 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.512 CEST [53066] LOG:  duration: 0.072 ms
+2020-09-03 18:55:52.512 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.512 CEST [53066] LOG:  duration: 0.151 ms
+2020-09-03 18:55:52.513 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.513 CEST [53066] LOG:  duration: 0.052 ms
+2020-09-03 18:55:52.514 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.514 CEST [53068] LOG:  duration: 0.261 ms
+2020-09-03 18:55:52.516 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.516 CEST [53068] LOG:  duration: 0.143 ms
+2020-09-03 18:55:52.527 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.527 CEST [53066] LOG:  duration: 0.067 ms
+2020-09-03 18:55:52.527 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.527 CEST [53066] LOG:  duration: 0.317 ms
+2020-09-03 18:55:52.529 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.529 CEST [53068] LOG:  duration: 0.093 ms
+2020-09-03 18:55:52.529 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.529 CEST [53068] LOG:  duration: 0.167 ms
+2020-09-03 18:55:52.529 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.530 CEST [53068] LOG:  duration: 0.065 ms
+2020-09-03 18:55:52.530 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.531 CEST [53066] LOG:  duration: 0.268 ms
+2020-09-03 18:55:52.532 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.532 CEST [53066] LOG:  duration: 0.074 ms
+2020-09-03 18:55:52.542 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.542 CEST [53068] LOG:  duration: 0.088 ms
+2020-09-03 18:55:52.543 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.543 CEST [53068] LOG:  duration: 0.212 ms
+2020-09-03 18:55:52.544 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.544 CEST [53066] LOG:  duration: 0.055 ms
+2020-09-03 18:55:52.544 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.544 CEST [53066] LOG:  duration: 0.137 ms
+2020-09-03 18:55:52.548 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.548 CEST [53066] LOG:  duration: 0.142 ms
+2020-09-03 18:55:52.550 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.550 CEST [53068] LOG:  duration: 0.226 ms
+2020-09-03 18:55:52.554 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.554 CEST [53068] LOG:  duration: 0.071 ms
+2020-09-03 18:55:52.569 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.569 CEST [53066] LOG:  duration: 0.133 ms
+2020-09-03 18:55:52.570 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.571 CEST [53066] LOG:  duration: 0.861 ms
+2020-09-03 18:55:52.572 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.572 CEST [53068] LOG:  duration: 0.054 ms
+2020-09-03 18:55:52.573 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.573 CEST [53068] LOG:  duration: 0.133 ms
+2020-09-03 18:55:52.573 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.573 CEST [53068] LOG:  duration: 0.047 ms
+2020-09-03 18:55:52.574 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.574 CEST [53066] LOG:  duration: 0.199 ms
+2020-09-03 18:55:52.575 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.575 CEST [53066] LOG:  duration: 0.091 ms
+2020-09-03 18:55:52.590 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.590 CEST [53068] LOG:  duration: 0.119 ms
+2020-09-03 18:55:52.590 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.591 CEST [53068] LOG:  duration: 0.277 ms
+2020-09-03 18:55:52.592 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.592 CEST [53066] LOG:  duration: 0.113 ms
+2020-09-03 18:55:52.593 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.593 CEST [53066] LOG:  duration: 0.147 ms
+2020-09-03 18:55:52.593 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.593 CEST [53066] LOG:  duration: 0.106 ms
+2020-09-03 18:55:52.594 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.595 CEST [53068] LOG:  duration: 0.308 ms
+2020-09-03 18:55:52.596 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.596 CEST [53068] LOG:  duration: 0.144 ms
+2020-09-03 18:55:52.607 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.607 CEST [53066] LOG:  duration: 0.098 ms
+2020-09-03 18:55:52.607 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.607 CEST [53066] LOG:  duration: 0.254 ms
+2020-09-03 18:55:52.609 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.609 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:52.609 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.609 CEST [53068] LOG:  duration: 0.130 ms
+2020-09-03 18:55:52.610 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.610 CEST [53068] LOG:  duration: 0.048 ms
+2020-09-03 18:55:52.610 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.611 CEST [53066] LOG:  duration: 0.192 ms
+2020-09-03 18:55:52.612 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.612 CEST [53066] LOG:  duration: 0.097 ms
+2020-09-03 18:55:52.625 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.625 CEST [53068] LOG:  duration: 0.097 ms
+2020-09-03 18:55:52.626 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.626 CEST [53068] LOG:  duration: 0.319 ms
+2020-09-03 18:55:52.629 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.629 CEST [53066] LOG:  duration: 0.057 ms
+2020-09-03 18:55:52.629 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.629 CEST [53066] LOG:  duration: 0.151 ms
+2020-09-03 18:55:52.629 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.629 CEST [53066] LOG:  duration: 0.084 ms
+2020-09-03 18:55:52.631 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.631 CEST [53068] LOG:  duration: 0.327 ms
+2020-09-03 18:55:52.636 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.636 CEST [53068] LOG:  duration: 0.143 ms
+2020-09-03 18:55:52.652 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.652 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:52.652 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.652 CEST [53066] LOG:  duration: 0.479 ms
+2020-09-03 18:55:52.655 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.655 CEST [53068] LOG:  duration: 0.062 ms
+2020-09-03 18:55:52.656 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.656 CEST [53068] LOG:  duration: 0.147 ms
+2020-09-03 18:55:52.656 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.656 CEST [53068] LOG:  duration: 0.046 ms
+2020-09-03 18:55:52.657 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.657 CEST [53066] LOG:  duration: 0.213 ms
+2020-09-03 18:55:52.658 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.658 CEST [53066] LOG:  duration: 0.066 ms
+2020-09-03 18:55:52.674 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.674 CEST [53068] LOG:  duration: 0.099 ms
+2020-09-03 18:55:52.674 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.675 CEST [53068] LOG:  duration: 0.251 ms
+2020-09-03 18:55:52.676 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.676 CEST [53066] LOG:  duration: 0.089 ms
+2020-09-03 18:55:52.676 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.677 CEST [53066] LOG:  duration: 0.147 ms
+2020-09-03 18:55:52.677 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.677 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:52.677 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.678 CEST [53068] LOG:  duration: 0.196 ms
+2020-09-03 18:55:52.679 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.679 CEST [53068] LOG:  duration: 0.086 ms
+2020-09-03 18:55:52.688 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.688 CEST [53066] LOG:  duration: 0.089 ms
+2020-09-03 18:55:52.689 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.689 CEST [53066] LOG:  duration: 0.200 ms
+2020-09-03 18:55:52.690 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.690 CEST [53068] LOG:  duration: 0.087 ms
+2020-09-03 18:55:52.691 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.691 CEST [53068] LOG:  duration: 0.151 ms
+2020-09-03 18:55:52.691 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.691 CEST [53068] LOG:  duration: 0.044 ms
+2020-09-03 18:55:52.692 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.693 CEST [53066] LOG:  duration: 0.228 ms
+2020-09-03 18:55:52.694 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.694 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:52.709 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.709 CEST [53068] LOG:  duration: 0.100 ms
+2020-09-03 18:55:52.709 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.709 CEST [53068] LOG:  duration: 0.255 ms
+2020-09-03 18:55:52.713 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.713 CEST [53066] LOG:  duration: 0.043 ms
+2020-09-03 18:55:52.713 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.713 CEST [53066] LOG:  duration: 0.126 ms
+2020-09-03 18:55:52.714 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.714 CEST [53066] LOG:  duration: 0.047 ms
+2020-09-03 18:55:52.714 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.715 CEST [53068] LOG:  duration: 0.341 ms
+2020-09-03 18:55:52.716 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.716 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:52.728 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.728 CEST [53066] LOG:  duration: 0.111 ms
+2020-09-03 18:55:52.729 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.729 CEST [53066] LOG:  duration: 0.269 ms
+2020-09-03 18:55:52.730 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.730 CEST [53068] LOG:  duration: 0.118 ms
+2020-09-03 18:55:52.731 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.731 CEST [53068] LOG:  duration: 0.188 ms
+2020-09-03 18:55:52.731 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.731 CEST [53068] LOG:  duration: 0.131 ms
+2020-09-03 18:55:52.732 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.733 CEST [53066] LOG:  duration: 0.250 ms
+2020-09-03 18:55:52.734 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.734 CEST [53066] LOG:  duration: 0.075 ms
+2020-09-03 18:55:52.746 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.746 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:52.746 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.746 CEST [53068] LOG:  duration: 0.237 ms
+2020-09-03 18:55:52.751 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.751 CEST [53066] LOG:  duration: 0.057 ms
+2020-09-03 18:55:52.751 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.751 CEST [53066] LOG:  duration: 0.137 ms
+2020-09-03 18:55:52.752 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.752 CEST [53066] LOG:  duration: 0.044 ms
+2020-09-03 18:55:52.753 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.753 CEST [53068] LOG:  duration: 0.198 ms
+2020-09-03 18:55:52.757 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.757 CEST [53068] LOG:  duration: 0.066 ms
+2020-09-03 18:55:52.768 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.768 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:52.770 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.770 CEST [53066] LOG:  duration: 0.240 ms
+2020-09-03 18:55:52.771 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.771 CEST [53068] LOG:  duration: 0.041 ms
+2020-09-03 18:55:52.771 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.771 CEST [53068] LOG:  duration: 0.140 ms
+2020-09-03 18:55:52.772 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.772 CEST [53068] LOG:  duration: 0.046 ms
+2020-09-03 18:55:52.773 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.773 CEST [53066] LOG:  duration: 0.189 ms
+2020-09-03 18:55:52.774 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.774 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:52.783 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.783 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:52.783 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.783 CEST [53068] LOG:  duration: 0.198 ms
+2020-09-03 18:55:52.785 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.785 CEST [53066] LOG:  duration: 0.051 ms
+2020-09-03 18:55:52.785 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.785 CEST [53066] LOG:  duration: 0.176 ms
+2020-09-03 18:55:52.785 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.785 CEST [53066] LOG:  duration: 0.054 ms
+2020-09-03 18:55:52.786 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.786 CEST [53068] LOG:  duration: 0.181 ms
+2020-09-03 18:55:52.788 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.788 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:52.808 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.808 CEST [53066] LOG:  duration: 0.452 ms
+2020-09-03 18:55:52.809 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.810 CEST [53066] LOG:  duration: 1.423 ms
+2020-09-03 18:55:52.812 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.812 CEST [53068] LOG:  duration: 0.054 ms
+2020-09-03 18:55:52.812 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.812 CEST [53068] LOG:  duration: 0.157 ms
+2020-09-03 18:55:52.813 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.813 CEST [53068] LOG:  duration: 0.057 ms
+2020-09-03 18:55:52.814 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.814 CEST [53066] LOG:  duration: 0.232 ms
+2020-09-03 18:55:52.818 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.818 CEST [53066] LOG:  duration: 2.306 ms
+2020-09-03 18:55:52.826 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.826 CEST [53068] LOG:  duration: 0.047 ms
+2020-09-03 18:55:52.826 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.827 CEST [53068] LOG:  duration: 0.225 ms
+2020-09-03 18:55:52.831 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.831 CEST [53066] LOG:  duration: 0.147 ms
+2020-09-03 18:55:52.832 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.832 CEST [53066] LOG:  duration: 0.284 ms
+2020-09-03 18:55:52.833 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.833 CEST [53066] LOG:  duration: 0.131 ms
+2020-09-03 18:55:52.835 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.835 CEST [53068] LOG:  duration: 0.835 ms
+2020-09-03 18:55:52.837 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.837 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:52.854 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.854 CEST [53066] LOG:  duration: 0.054 ms
+2020-09-03 18:55:52.854 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.854 CEST [53066] LOG:  duration: 0.218 ms
+2020-09-03 18:55:52.856 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.856 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:52.856 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.856 CEST [53068] LOG:  duration: 0.149 ms
+2020-09-03 18:55:52.857 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.857 CEST [53068] LOG:  duration: 0.062 ms
+2020-09-03 18:55:52.858 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.858 CEST [53066] LOG:  duration: 0.224 ms
+2020-09-03 18:55:52.859 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.859 CEST [53066] LOG:  duration: 0.073 ms
+2020-09-03 18:55:52.876 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.876 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:52.876 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.876 CEST [53068] LOG:  duration: 0.258 ms
+2020-09-03 18:55:52.878 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.879 CEST [53066] LOG:  duration: 0.611 ms
+2020-09-03 18:55:52.879 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.879 CEST [53066] LOG:  duration: 0.202 ms
+2020-09-03 18:55:52.879 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.879 CEST [53066] LOG:  duration: 0.118 ms
+2020-09-03 18:55:52.880 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.881 CEST [53068] LOG:  duration: 0.321 ms
+2020-09-03 18:55:52.882 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.882 CEST [53068] LOG:  duration: 0.081 ms
+2020-09-03 18:55:52.965 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.965 CEST [53066] LOG:  duration: 0.317 ms
+2020-09-03 18:55:52.966 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.967 CEST [53066] LOG:  duration: 0.731 ms
+2020-09-03 18:55:52.969 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.969 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:52.969 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.969 CEST [53068] LOG:  duration: 0.157 ms
+2020-09-03 18:55:52.969 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.970 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:52.970 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.971 CEST [53066] LOG:  duration: 0.347 ms
+2020-09-03 18:55:52.972 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.972 CEST [53066] LOG:  duration: 0.135 ms
+2020-09-03 18:55:52.984 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:52.984 CEST [53068] LOG:  duration: 0.076 ms
+2020-09-03 18:55:52.984 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:52.984 CEST [53068] LOG:  duration: 0.251 ms
+2020-09-03 18:55:52.986 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:52.986 CEST [53066] LOG:  duration: 0.276 ms
+2020-09-03 18:55:52.988 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:52.988 CEST [53066] LOG:  duration: 0.166 ms
+2020-09-03 18:55:52.989 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.989 CEST [53066] LOG:  duration: 0.054 ms
+2020-09-03 18:55:52.989 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:52.990 CEST [53068] LOG:  duration: 0.215 ms
+2020-09-03 18:55:52.991 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:52.991 CEST [53068] LOG:  duration: 0.069 ms
+2020-09-03 18:55:53.003 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.003 CEST [53066] LOG:  duration: 0.247 ms
+2020-09-03 18:55:53.004 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.005 CEST [53066] LOG:  duration: 0.981 ms
+2020-09-03 18:55:53.010 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.010 CEST [53068] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.010 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.010 CEST [53068] LOG:  duration: 0.135 ms
+2020-09-03 18:55:53.011 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.011 CEST [53068] LOG:  duration: 0.050 ms
+2020-09-03 18:55:53.012 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.012 CEST [53066] LOG:  duration: 0.229 ms
+2020-09-03 18:55:53.016 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.016 CEST [53066] LOG:  duration: 0.085 ms
+2020-09-03 18:55:53.030 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.030 CEST [53068] LOG:  duration: 0.054 ms
+2020-09-03 18:55:53.030 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.030 CEST [53068] LOG:  duration: 0.280 ms
+2020-09-03 18:55:53.034 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.034 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.034 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.035 CEST [53066] LOG:  duration: 0.119 ms
+2020-09-03 18:55:53.035 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.035 CEST [53066] LOG:  duration: 0.037 ms
+2020-09-03 18:55:53.036 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.036 CEST [53068] LOG:  duration: 0.200 ms
+2020-09-03 18:55:53.037 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.037 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.048 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.048 CEST [53066] LOG:  duration: 0.062 ms
+2020-09-03 18:55:53.048 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.048 CEST [53066] LOG:  duration: 0.241 ms
+2020-09-03 18:55:53.052 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.052 CEST [53068] LOG:  duration: 0.441 ms
+2020-09-03 18:55:53.052 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.052 CEST [53068] LOG:  duration: 0.147 ms
+2020-09-03 18:55:53.056 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.056 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:53.057 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.057 CEST [53066] LOG:  duration: 0.326 ms
+2020-09-03 18:55:53.063 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.063 CEST [53066] LOG:  duration: 0.066 ms
+2020-09-03 18:55:53.074 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.074 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.075 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.075 CEST [53068] LOG:  duration: 0.222 ms
+2020-09-03 18:55:53.077 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.077 CEST [53066] LOG:  duration: 0.051 ms
+2020-09-03 18:55:53.077 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.077 CEST [53066] LOG:  duration: 0.139 ms
+2020-09-03 18:55:53.080 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.080 CEST [53066] LOG:  duration: 0.100 ms
+2020-09-03 18:55:53.083 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.083 CEST [53068] LOG:  duration: 0.334 ms
+2020-09-03 18:55:53.084 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.084 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:53.090 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.090 CEST [53066] LOG:  duration: 0.045 ms
+2020-09-03 18:55:53.091 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.091 CEST [53066] LOG:  duration: 0.160 ms
+2020-09-03 18:55:53.092 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.092 CEST [53068] LOG:  duration: 0.035 ms
+2020-09-03 18:55:53.092 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.092 CEST [53068] LOG:  duration: 0.183 ms
+2020-09-03 18:55:53.092 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.092 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.093 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.093 CEST [53066] LOG:  duration: 0.155 ms
+2020-09-03 18:55:53.094 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.094 CEST [53066] LOG:  duration: 0.041 ms
+2020-09-03 18:55:53.110 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.110 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.110 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.111 CEST [53068] LOG:  duration: 0.170 ms
+2020-09-03 18:55:53.112 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.112 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.112 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.112 CEST [53066] LOG:  duration: 0.139 ms
+2020-09-03 18:55:53.112 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.113 CEST [53066] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.113 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.113 CEST [53068] LOG:  duration: 0.224 ms
+2020-09-03 18:55:53.118 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.118 CEST [53068] LOG:  duration: 0.156 ms
+2020-09-03 18:55:53.128 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.128 CEST [53066] LOG:  duration: 0.046 ms
+2020-09-03 18:55:53.128 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.128 CEST [53066] LOG:  duration: 0.240 ms
+2020-09-03 18:55:53.135 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.135 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.135 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.135 CEST [53068] LOG:  duration: 0.129 ms
+2020-09-03 18:55:53.135 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.135 CEST [53068] LOG:  duration: 0.044 ms
+2020-09-03 18:55:53.136 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.136 CEST [53066] LOG:  duration: 0.154 ms
+2020-09-03 18:55:53.137 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.137 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.144 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.144 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:53.144 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.145 CEST [53068] LOG:  duration: 0.258 ms
+2020-09-03 18:55:53.149 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.149 CEST [53066] LOG:  duration: 0.215 ms
+2020-09-03 18:55:53.149 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.150 CEST [53066] LOG:  duration: 0.904 ms
+2020-09-03 18:55:53.152 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.152 CEST [53066] LOG:  duration: 0.051 ms
+2020-09-03 18:55:53.153 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.153 CEST [53068] LOG:  duration: 0.228 ms
+2020-09-03 18:55:53.154 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.154 CEST [53068] LOG:  duration: 0.075 ms
+2020-09-03 18:55:53.165 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.165 CEST [53066] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.165 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.166 CEST [53066] LOG:  duration: 0.281 ms
+2020-09-03 18:55:53.168 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.168 CEST [53068] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.168 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.168 CEST [53068] LOG:  duration: 0.108 ms
+2020-09-03 18:55:53.168 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.168 CEST [53068] LOG:  duration: 0.029 ms
+2020-09-03 18:55:53.169 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.169 CEST [53066] LOG:  duration: 0.145 ms
+2020-09-03 18:55:53.169 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.169 CEST [53066] LOG:  duration: 0.043 ms
+2020-09-03 18:55:53.177 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.177 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.178 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.178 CEST [53068] LOG:  duration: 0.212 ms
+2020-09-03 18:55:53.180 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.180 CEST [53066] LOG:  duration: 0.057 ms
+2020-09-03 18:55:53.180 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.180 CEST [53066] LOG:  duration: 0.132 ms
+2020-09-03 18:55:53.181 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.181 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.182 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.182 CEST [53068] LOG:  duration: 0.233 ms
+2020-09-03 18:55:53.185 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.185 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:53.197 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.197 CEST [53066] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.197 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.197 CEST [53066] LOG:  duration: 0.328 ms
+2020-09-03 18:55:53.199 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.199 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.199 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.199 CEST [53068] LOG:  duration: 0.170 ms
+2020-09-03 18:55:53.199 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.199 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:53.201 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.201 CEST [53066] LOG:  duration: 0.244 ms
+2020-09-03 18:55:53.204 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.205 CEST [53066] LOG:  duration: 0.294 ms
+2020-09-03 18:55:53.217 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.217 CEST [53068] LOG:  duration: 0.239 ms
+2020-09-03 18:55:53.217 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.218 CEST [53068] LOG:  duration: 0.330 ms
+2020-09-03 18:55:53.226 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.226 CEST [53066] LOG:  duration: 0.062 ms
+2020-09-03 18:55:53.226 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.226 CEST [53066] LOG:  duration: 0.166 ms
+2020-09-03 18:55:53.227 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.227 CEST [53066] LOG:  duration: 0.062 ms
+2020-09-03 18:55:53.228 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.228 CEST [53068] LOG:  duration: 0.244 ms
+2020-09-03 18:55:53.230 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.230 CEST [53068] LOG:  duration: 0.073 ms
+2020-09-03 18:55:53.244 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.244 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:53.244 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.245 CEST [53066] LOG:  duration: 0.263 ms
+2020-09-03 18:55:53.252 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.252 CEST [53068] LOG:  duration: 0.054 ms
+2020-09-03 18:55:53.252 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.252 CEST [53068] LOG:  duration: 0.140 ms
+2020-09-03 18:55:53.254 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.254 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.255 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.255 CEST [53066] LOG:  duration: 0.176 ms
+2020-09-03 18:55:53.256 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.256 CEST [53066] LOG:  duration: 0.066 ms
+2020-09-03 18:55:53.269 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.269 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:53.270 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.270 CEST [53068] LOG:  duration: 0.218 ms
+2020-09-03 18:55:53.272 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.272 CEST [53066] LOG:  duration: 0.344 ms
+2020-09-03 18:55:53.273 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.274 CEST [53066] LOG:  duration: 0.595 ms
+2020-09-03 18:55:53.275 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.275 CEST [53066] LOG:  duration: 0.245 ms
+2020-09-03 18:55:53.277 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.277 CEST [53068] LOG:  duration: 0.189 ms
+2020-09-03 18:55:53.279 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.279 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.290 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.290 CEST [53066] LOG:  duration: 0.086 ms
+2020-09-03 18:55:53.290 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.291 CEST [53066] LOG:  duration: 0.198 ms
+2020-09-03 18:55:53.292 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.292 CEST [53068] LOG:  duration: 0.050 ms
+2020-09-03 18:55:53.292 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.292 CEST [53068] LOG:  duration: 0.138 ms
+2020-09-03 18:55:53.292 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.292 CEST [53068] LOG:  duration: 0.042 ms
+2020-09-03 18:55:53.293 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.293 CEST [53066] LOG:  duration: 0.215 ms
+2020-09-03 18:55:53.294 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.294 CEST [53066] LOG:  duration: 0.084 ms
+2020-09-03 18:55:53.306 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.306 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.306 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.307 CEST [53068] LOG:  duration: 0.216 ms
+2020-09-03 18:55:53.308 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.308 CEST [53066] LOG:  duration: 0.084 ms
+2020-09-03 18:55:53.308 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.308 CEST [53066] LOG:  duration: 0.137 ms
+2020-09-03 18:55:53.308 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.308 CEST [53066] LOG:  duration: 0.050 ms
+2020-09-03 18:55:53.309 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.310 CEST [53068] LOG:  duration: 0.769 ms
+2020-09-03 18:55:53.315 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.315 CEST [53068] LOG:  duration: 0.086 ms
+2020-09-03 18:55:53.329 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.329 CEST [53066] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.329 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.329 CEST [53066] LOG:  duration: 0.226 ms
+2020-09-03 18:55:53.331 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.331 CEST [53068] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.332 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.332 CEST [53068] LOG:  duration: 0.128 ms
+2020-09-03 18:55:53.332 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.332 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.333 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.333 CEST [53066] LOG:  duration: 0.218 ms
+2020-09-03 18:55:53.335 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.335 CEST [53066] LOG:  duration: 0.072 ms
+2020-09-03 18:55:53.343 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.343 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:53.343 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.343 CEST [53068] LOG:  duration: 0.237 ms
+2020-09-03 18:55:53.345 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.345 CEST [53066] LOG:  duration: 0.127 ms
+2020-09-03 18:55:53.346 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.346 CEST [53066] LOG:  duration: 0.179 ms
+2020-09-03 18:55:53.346 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.346 CEST [53066] LOG:  duration: 0.074 ms
+2020-09-03 18:55:53.347 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.348 CEST [53068] LOG:  duration: 0.275 ms
+2020-09-03 18:55:53.351 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.351 CEST [53068] LOG:  duration: 0.146 ms
+2020-09-03 18:55:53.367 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.368 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.368 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.368 CEST [53066] LOG:  duration: 0.274 ms
+2020-09-03 18:55:53.370 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.370 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:53.370 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.370 CEST [53068] LOG:  duration: 0.160 ms
+2020-09-03 18:55:53.370 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.371 CEST [53068] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.371 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.372 CEST [53066] LOG:  duration: 0.349 ms
+2020-09-03 18:55:53.373 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.373 CEST [53066] LOG:  duration: 0.137 ms
+2020-09-03 18:55:53.419 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.419 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:53.420 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.420 CEST [53068] LOG:  duration: 0.238 ms
+2020-09-03 18:55:53.425 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.425 CEST [53066] LOG:  duration: 0.304 ms
+2020-09-03 18:55:53.425 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.425 CEST [53066] LOG:  duration: 0.263 ms
+2020-09-03 18:55:53.426 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.426 CEST [53066] LOG:  duration: 0.057 ms
+2020-09-03 18:55:53.427 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.427 CEST [53068] LOG:  duration: 0.240 ms
+2020-09-03 18:55:53.429 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.429 CEST [53068] LOG:  duration: 0.066 ms
+2020-09-03 18:55:53.439 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.439 CEST [53066] LOG:  duration: 0.087 ms
+2020-09-03 18:55:53.439 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.439 CEST [53066] LOG:  duration: 0.203 ms
+2020-09-03 18:55:53.441 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.441 CEST [53068] LOG:  duration: 0.036 ms
+2020-09-03 18:55:53.441 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.441 CEST [53068] LOG:  duration: 0.130 ms
+2020-09-03 18:55:53.441 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.441 CEST [53068] LOG:  duration: 0.032 ms
+2020-09-03 18:55:53.442 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.442 CEST [53066] LOG:  duration: 0.197 ms
+2020-09-03 18:55:53.444 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.444 CEST [53066] LOG:  duration: 0.069 ms
+2020-09-03 18:55:53.458 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.458 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.458 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.459 CEST [53068] LOG:  duration: 0.389 ms
+2020-09-03 18:55:53.461 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.461 CEST [53066] LOG:  duration: 0.139 ms
+2020-09-03 18:55:53.461 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.461 CEST [53066] LOG:  duration: 0.271 ms
+2020-09-03 18:55:53.462 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.462 CEST [53066] LOG:  duration: 0.135 ms
+2020-09-03 18:55:53.463 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.463 CEST [53068] LOG:  duration: 0.232 ms
+2020-09-03 18:55:53.466 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.466 CEST [53068] LOG:  duration: 0.208 ms
+2020-09-03 18:55:53.481 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.481 CEST [53066] LOG:  duration: 0.136 ms
+2020-09-03 18:55:53.481 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.482 CEST [53066] LOG:  duration: 0.619 ms
+2020-09-03 18:55:53.484 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.484 CEST [53068] LOG:  duration: 0.073 ms
+2020-09-03 18:55:53.484 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.484 CEST [53068] LOG:  duration: 0.151 ms
+2020-09-03 18:55:53.485 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.485 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.486 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.488 CEST [53066] LOG:  duration: 1.976 ms
+2020-09-03 18:55:53.490 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.491 CEST [53066] LOG:  duration: 0.137 ms
+2020-09-03 18:55:53.504 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.504 CEST [53068] LOG:  duration: 0.149 ms
+2020-09-03 18:55:53.505 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.505 CEST [53068] LOG:  duration: 0.457 ms
+2020-09-03 18:55:53.509 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.509 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.509 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.509 CEST [53066] LOG:  duration: 0.159 ms
+2020-09-03 18:55:53.510 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.510 CEST [53066] LOG:  duration: 0.292 ms
+2020-09-03 18:55:53.513 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.513 CEST [53068] LOG:  duration: 0.283 ms
+2020-09-03 18:55:53.515 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.515 CEST [53068] LOG:  duration: 0.186 ms
+2020-09-03 18:55:53.529 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.529 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:53.530 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.530 CEST [53066] LOG:  duration: 0.402 ms
+2020-09-03 18:55:53.536 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.536 CEST [53068] LOG:  duration: 0.089 ms
+2020-09-03 18:55:53.536 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.536 CEST [53068] LOG:  duration: 0.258 ms
+2020-09-03 18:55:53.537 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.537 CEST [53068] LOG:  duration: 0.051 ms
+2020-09-03 18:55:53.538 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.538 CEST [53066] LOG:  duration: 0.338 ms
+2020-09-03 18:55:53.541 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.541 CEST [53066] LOG:  duration: 0.074 ms
+2020-09-03 18:55:53.553 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.553 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:53.554 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.554 CEST [53068] LOG:  duration: 0.611 ms
+2020-09-03 18:55:53.558 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.558 CEST [53066] LOG:  duration: 0.064 ms
+2020-09-03 18:55:53.559 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.559 CEST [53066] LOG:  duration: 0.155 ms
+2020-09-03 18:55:53.559 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.559 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.561 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.561 CEST [53068] LOG:  duration: 0.242 ms
+2020-09-03 18:55:53.563 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.563 CEST [53068] LOG:  duration: 0.083 ms
+2020-09-03 18:55:53.575 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.575 CEST [53066] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.575 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.576 CEST [53066] LOG:  duration: 0.252 ms
+2020-09-03 18:55:53.583 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.583 CEST [53068] LOG:  duration: 0.074 ms
+2020-09-03 18:55:53.584 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.584 CEST [53068] LOG:  duration: 0.202 ms
+2020-09-03 18:55:53.585 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.585 CEST [53068] LOG:  duration: 0.092 ms
+2020-09-03 18:55:53.586 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.586 CEST [53066] LOG:  duration: 0.254 ms
+2020-09-03 18:55:53.588 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.588 CEST [53066] LOG:  duration: 0.076 ms
+2020-09-03 18:55:53.601 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.601 CEST [53068] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.601 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.602 CEST [53068] LOG:  duration: 0.262 ms
+2020-09-03 18:55:53.604 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.604 CEST [53066] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.605 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.605 CEST [53066] LOG:  duration: 0.144 ms
+2020-09-03 18:55:53.605 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.605 CEST [53066] LOG:  duration: 0.049 ms
+2020-09-03 18:55:53.606 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.607 CEST [53068] LOG:  duration: 0.530 ms
+2020-09-03 18:55:53.608 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.608 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:53.618 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.618 CEST [53066] LOG:  duration: 0.155 ms
+2020-09-03 18:55:53.618 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.618 CEST [53066] LOG:  duration: 0.234 ms
+2020-09-03 18:55:53.624 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.624 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.624 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.624 CEST [53068] LOG:  duration: 0.152 ms
+2020-09-03 18:55:53.624 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.624 CEST [53068] LOG:  duration: 0.129 ms
+2020-09-03 18:55:53.626 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.626 CEST [53066] LOG:  duration: 0.233 ms
+2020-09-03 18:55:53.628 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.628 CEST [53066] LOG:  duration: 0.065 ms
+2020-09-03 18:55:53.641 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.641 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:53.642 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.642 CEST [53068] LOG:  duration: 0.230 ms
+2020-09-03 18:55:53.644 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.644 CEST [53066] LOG:  duration: 0.053 ms
+2020-09-03 18:55:53.644 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.644 CEST [53066] LOG:  duration: 0.141 ms
+2020-09-03 18:55:53.645 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.645 CEST [53066] LOG:  duration: 0.049 ms
+2020-09-03 18:55:53.646 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.646 CEST [53068] LOG:  duration: 0.227 ms
+2020-09-03 18:55:53.648 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.648 CEST [53068] LOG:  duration: 0.083 ms
+2020-09-03 18:55:53.662 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.662 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.662 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.662 CEST [53066] LOG:  duration: 0.268 ms
+2020-09-03 18:55:53.665 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.665 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.665 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.665 CEST [53068] LOG:  duration: 0.128 ms
+2020-09-03 18:55:53.665 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.665 CEST [53068] LOG:  duration: 0.036 ms
+2020-09-03 18:55:53.666 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.666 CEST [53066] LOG:  duration: 0.263 ms
+2020-09-03 18:55:53.668 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.668 CEST [53066] LOG:  duration: 0.089 ms
+2020-09-03 18:55:53.677 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.677 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.677 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.677 CEST [53068] LOG:  duration: 0.235 ms
+2020-09-03 18:55:53.680 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.680 CEST [53066] LOG:  duration: 0.062 ms
+2020-09-03 18:55:53.680 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.680 CEST [53066] LOG:  duration: 0.156 ms
+2020-09-03 18:55:53.680 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.680 CEST [53066] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.681 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.681 CEST [53068] LOG:  duration: 0.231 ms
+2020-09-03 18:55:53.683 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.683 CEST [53068] LOG:  duration: 0.076 ms
+2020-09-03 18:55:53.695 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.695 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:53.695 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.696 CEST [53066] LOG:  duration: 0.277 ms
+2020-09-03 18:55:53.697 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.697 CEST [53068] LOG:  duration: 0.189 ms
+2020-09-03 18:55:53.698 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.698 CEST [53068] LOG:  duration: 0.550 ms
+2020-09-03 18:55:53.699 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.699 CEST [53068] LOG:  duration: 0.080 ms
+2020-09-03 18:55:53.701 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.701 CEST [53066] LOG:  duration: 0.303 ms
+2020-09-03 18:55:53.702 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.702 CEST [53066] LOG:  duration: 0.067 ms
+2020-09-03 18:55:53.714 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.714 CEST [53068] LOG:  duration: 0.066 ms
+2020-09-03 18:55:53.714 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.715 CEST [53068] LOG:  duration: 0.236 ms
+2020-09-03 18:55:53.716 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.716 CEST [53066] LOG:  duration: 0.048 ms
+2020-09-03 18:55:53.716 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.716 CEST [53066] LOG:  duration: 0.127 ms
+2020-09-03 18:55:53.717 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.717 CEST [53066] LOG:  duration: 0.042 ms
+2020-09-03 18:55:53.717 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.717 CEST [53068] LOG:  duration: 0.180 ms
+2020-09-03 18:55:53.719 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.719 CEST [53068] LOG:  duration: 0.096 ms
+2020-09-03 18:55:53.728 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.728 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.728 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.728 CEST [53066] LOG:  duration: 0.229 ms
+2020-09-03 18:55:53.730 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.730 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.730 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.731 CEST [53068] LOG:  duration: 0.140 ms
+2020-09-03 18:55:53.731 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.731 CEST [53068] LOG:  duration: 0.037 ms
+2020-09-03 18:55:53.732 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.732 CEST [53066] LOG:  duration: 0.204 ms
+2020-09-03 18:55:53.733 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.733 CEST [53066] LOG:  duration: 0.068 ms
+2020-09-03 18:55:53.742 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.742 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.742 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.742 CEST [53068] LOG:  duration: 0.264 ms
+2020-09-03 18:55:53.744 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.744 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:53.744 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.744 CEST [53066] LOG:  duration: 0.150 ms
+2020-09-03 18:55:53.745 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.745 CEST [53066] LOG:  duration: 0.034 ms
+2020-09-03 18:55:53.745 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.746 CEST [53068] LOG:  duration: 0.200 ms
+2020-09-03 18:55:53.747 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.747 CEST [53068] LOG:  duration: 0.062 ms
+2020-09-03 18:55:53.760 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.760 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:53.760 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.761 CEST [53066] LOG:  duration: 0.222 ms
+2020-09-03 18:55:53.762 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.762 CEST [53068] LOG:  duration: 0.052 ms
+2020-09-03 18:55:53.763 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.763 CEST [53068] LOG:  duration: 0.137 ms
+2020-09-03 18:55:53.763 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.763 CEST [53068] LOG:  duration: 0.046 ms
+2020-09-03 18:55:53.764 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.764 CEST [53066] LOG:  duration: 0.219 ms
+2020-09-03 18:55:53.766 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.766 CEST [53066] LOG:  duration: 0.073 ms
+2020-09-03 18:55:53.785 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.785 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.786 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.786 CEST [53068] LOG:  duration: 0.240 ms
+2020-09-03 18:55:53.790 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.790 CEST [53066] LOG:  duration: 0.063 ms
+2020-09-03 18:55:53.790 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.790 CEST [53066] LOG:  duration: 0.150 ms
+2020-09-03 18:55:53.791 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.791 CEST [53066] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.793 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.794 CEST [53068] LOG:  duration: 0.214 ms
+2020-09-03 18:55:53.795 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.795 CEST [53068] LOG:  duration: 0.070 ms
+2020-09-03 18:55:53.806 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.806 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.806 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.806 CEST [53066] LOG:  duration: 0.235 ms
+2020-09-03 18:55:53.809 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.809 CEST [53068] LOG:  duration: 0.069 ms
+2020-09-03 18:55:53.809 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.809 CEST [53068] LOG:  duration: 0.167 ms
+2020-09-03 18:55:53.809 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.809 CEST [53068] LOG:  duration: 0.050 ms
+2020-09-03 18:55:53.810 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.810 CEST [53066] LOG:  duration: 0.201 ms
+2020-09-03 18:55:53.812 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.812 CEST [53066] LOG:  duration: 0.065 ms
+2020-09-03 18:55:53.822 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.822 CEST [53068] LOG:  duration: 0.092 ms
+2020-09-03 18:55:53.823 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.824 CEST [53068] LOG:  duration: 1.533 ms
+2020-09-03 18:55:53.828 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.828 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:53.829 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.829 CEST [53066] LOG:  duration: 0.174 ms
+2020-09-03 18:55:53.829 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.829 CEST [53066] LOG:  duration: 0.050 ms
+2020-09-03 18:55:53.830 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.830 CEST [53068] LOG:  duration: 0.235 ms
+2020-09-03 18:55:53.832 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.832 CEST [53068] LOG:  duration: 0.074 ms
+2020-09-03 18:55:53.845 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.845 CEST [53066] LOG:  duration: 0.067 ms
+2020-09-03 18:55:53.845 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.846 CEST [53066] LOG:  duration: 0.273 ms
+2020-09-03 18:55:53.851 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.851 CEST [53068] LOG:  duration: 0.065 ms
+2020-09-03 18:55:53.851 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.851 CEST [53068] LOG:  duration: 0.162 ms
+2020-09-03 18:55:53.852 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.852 CEST [53068] LOG:  duration: 0.049 ms
+2020-09-03 18:55:53.853 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.853 CEST [53066] LOG:  duration: 0.223 ms
+2020-09-03 18:55:53.854 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.854 CEST [53066] LOG:  duration: 0.100 ms
+2020-09-03 18:55:53.871 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.871 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:53.871 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.871 CEST [53068] LOG:  duration: 0.353 ms
+2020-09-03 18:55:53.874 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.874 CEST [53066] LOG:  duration: 0.216 ms
+2020-09-03 18:55:53.874 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.875 CEST [53066] LOG:  duration: 0.195 ms
+2020-09-03 18:55:53.875 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.875 CEST [53066] LOG:  duration: 0.078 ms
+2020-09-03 18:55:53.877 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.877 CEST [53068] LOG:  duration: 0.264 ms
+2020-09-03 18:55:53.880 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.880 CEST [53068] LOG:  duration: 0.072 ms
+2020-09-03 18:55:53.983 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:53.983 CEST [53066] LOG:  duration: 0.055 ms
+2020-09-03 18:55:53.983 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.984 CEST [53066] LOG:  duration: 0.231 ms
+2020-09-03 18:55:53.986 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.986 CEST [53068] LOG:  duration: 0.057 ms
+2020-09-03 18:55:53.986 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:53.986 CEST [53068] LOG:  duration: 0.158 ms
+2020-09-03 18:55:53.986 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.986 CEST [53068] LOG:  duration: 0.046 ms
+2020-09-03 18:55:53.987 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:53.987 CEST [53066] LOG:  duration: 0.211 ms
+2020-09-03 18:55:53.989 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:53.989 CEST [53066] LOG:  duration: 0.072 ms
+2020-09-03 18:55:53.996 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:53.996 CEST [53068] LOG:  duration: 0.067 ms
+2020-09-03 18:55:53.998 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:53.999 CEST [53068] LOG:  duration: 0.853 ms
+2020-09-03 18:55:54.000 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.000 CEST [53066] LOG:  duration: 0.050 ms
+2020-09-03 18:55:54.000 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.000 CEST [53066] LOG:  duration: 0.101 ms
+2020-09-03 18:55:54.001 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.001 CEST [53066] LOG:  duration: 0.054 ms
+2020-09-03 18:55:54.002 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.002 CEST [53068] LOG:  duration: 0.167 ms
+2020-09-03 18:55:54.003 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.003 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:54.012 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.012 CEST [53066] LOG:  duration: 0.126 ms
+2020-09-03 18:55:54.012 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.012 CEST [53066] LOG:  duration: 0.206 ms
+2020-09-03 18:55:54.013 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.013 CEST [53068] LOG:  duration: 0.043 ms
+2020-09-03 18:55:54.014 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.014 CEST [53068] LOG:  duration: 0.135 ms
+2020-09-03 18:55:54.014 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.014 CEST [53068] LOG:  duration: 0.308 ms
+2020-09-03 18:55:54.017 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.017 CEST [53066] LOG:  duration: 0.218 ms
+2020-09-03 18:55:54.019 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.019 CEST [53066] LOG:  duration: 0.070 ms
+2020-09-03 18:55:54.038 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.038 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.038 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.038 CEST [53068] LOG:  duration: 0.246 ms
+2020-09-03 18:55:54.043 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.043 CEST [53066] LOG:  duration: 0.176 ms
+2020-09-03 18:55:54.044 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.044 CEST [53066] LOG:  duration: 0.491 ms
+2020-09-03 18:55:54.045 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.045 CEST [53066] LOG:  duration: 0.097 ms
+2020-09-03 18:55:54.048 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.048 CEST [53068] LOG:  duration: 0.162 ms
+2020-09-03 18:55:54.049 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.049 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:54.055 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.055 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.056 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.056 CEST [53066] LOG:  duration: 0.296 ms
+2020-09-03 18:55:54.058 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.058 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.058 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.058 CEST [53068] LOG:  duration: 0.176 ms
+2020-09-03 18:55:54.059 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.059 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.061 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.061 CEST [53066] LOG:  duration: 0.196 ms
+2020-09-03 18:55:54.063 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.063 CEST [53066] LOG:  duration: 0.077 ms
+2020-09-03 18:55:54.076 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.076 CEST [53068] LOG:  duration: 0.066 ms
+2020-09-03 18:55:54.076 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.076 CEST [53068] LOG:  duration: 0.279 ms
+2020-09-03 18:55:54.078 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.078 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:54.078 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.078 CEST [53066] LOG:  duration: 0.159 ms
+2020-09-03 18:55:54.079 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.079 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:54.080 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.080 CEST [53068] LOG:  duration: 0.238 ms
+2020-09-03 18:55:54.084 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.084 CEST [53068] LOG:  duration: 0.236 ms
+2020-09-03 18:55:54.094 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.094 CEST [53066] LOG:  duration: 0.043 ms
+2020-09-03 18:55:54.095 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.095 CEST [53066] LOG:  duration: 0.160 ms
+2020-09-03 18:55:54.097 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.097 CEST [53068] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.097 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.097 CEST [53068] LOG:  duration: 0.153 ms
+2020-09-03 18:55:54.097 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.097 CEST [53068] LOG:  duration: 0.054 ms
+2020-09-03 18:55:54.099 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.099 CEST [53066] LOG:  duration: 0.776 ms
+2020-09-03 18:55:54.101 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.101 CEST [53066] LOG:  duration: 0.070 ms
+2020-09-03 18:55:54.108 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.108 CEST [53068] LOG:  duration: 0.059 ms
+2020-09-03 18:55:54.109 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.109 CEST [53068] LOG:  duration: 0.237 ms
+2020-09-03 18:55:54.111 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.111 CEST [53066] LOG:  duration: 0.043 ms
+2020-09-03 18:55:54.111 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.111 CEST [53066] LOG:  duration: 0.146 ms
+2020-09-03 18:55:54.111 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.111 CEST [53066] LOG:  duration: 0.042 ms
+2020-09-03 18:55:54.112 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.112 CEST [53068] LOG:  duration: 0.213 ms
+2020-09-03 18:55:54.113 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.113 CEST [53068] LOG:  duration: 0.069 ms
+2020-09-03 18:55:54.121 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.121 CEST [53066] LOG:  duration: 0.042 ms
+2020-09-03 18:55:54.121 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.121 CEST [53066] LOG:  duration: 0.201 ms
+2020-09-03 18:55:54.122 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.123 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:54.123 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.123 CEST [53068] LOG:  duration: 0.142 ms
+2020-09-03 18:55:54.123 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.123 CEST [53068] LOG:  duration: 0.045 ms
+2020-09-03 18:55:54.124 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.124 CEST [53066] LOG:  duration: 0.245 ms
+2020-09-03 18:55:54.126 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.126 CEST [53066] LOG:  duration: 0.074 ms
+2020-09-03 18:55:54.142 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.142 CEST [53068] LOG:  duration: 0.143 ms
+2020-09-03 18:55:54.143 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.143 CEST [53068] LOG:  duration: 0.830 ms
+2020-09-03 18:55:54.146 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.146 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.146 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.146 CEST [53066] LOG:  duration: 0.170 ms
+2020-09-03 18:55:54.147 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.147 CEST [53066] LOG:  duration: 0.068 ms
+2020-09-03 18:55:54.148 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.148 CEST [53068] LOG:  duration: 0.271 ms
+2020-09-03 18:55:54.150 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.150 CEST [53068] LOG:  duration: 0.072 ms
+2020-09-03 18:55:54.166 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.166 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.166 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.166 CEST [53066] LOG:  duration: 0.224 ms
+2020-09-03 18:55:54.169 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.169 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:54.169 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.169 CEST [53068] LOG:  duration: 0.192 ms
+2020-09-03 18:55:54.170 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.170 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:54.171 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.171 CEST [53066] LOG:  duration: 0.249 ms
+2020-09-03 18:55:54.173 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.173 CEST [53066] LOG:  duration: 0.082 ms
+2020-09-03 18:55:54.187 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.187 CEST [53068] LOG:  duration: 0.177 ms
+2020-09-03 18:55:54.188 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.188 CEST [53068] LOG:  duration: 0.249 ms
+2020-09-03 18:55:54.192 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.192 CEST [53066] LOG:  duration: 0.070 ms
+2020-09-03 18:55:54.192 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.193 CEST [53066] LOG:  duration: 0.163 ms
+2020-09-03 18:55:54.193 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.193 CEST [53066] LOG:  duration: 0.066 ms
+2020-09-03 18:55:54.195 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.195 CEST [53068] LOG:  duration: 0.234 ms
+2020-09-03 18:55:54.198 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.198 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:54.206 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.206 CEST [53066] LOG:  duration: 0.045 ms
+2020-09-03 18:55:54.206 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.206 CEST [53066] LOG:  duration: 0.174 ms
+2020-09-03 18:55:54.208 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.208 CEST [53068] LOG:  duration: 0.046 ms
+2020-09-03 18:55:54.208 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.208 CEST [53068] LOG:  duration: 0.122 ms
+2020-09-03 18:55:54.208 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.208 CEST [53068] LOG:  duration: 0.031 ms
+2020-09-03 18:55:54.209 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.209 CEST [53066] LOG:  duration: 0.155 ms
+2020-09-03 18:55:54.210 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.210 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.221 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.221 CEST [53068] LOG:  duration: 0.089 ms
+2020-09-03 18:55:54.221 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.221 CEST [53068] LOG:  duration: 0.197 ms
+2020-09-03 18:55:54.228 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.228 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.228 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.228 CEST [53066] LOG:  duration: 0.138 ms
+2020-09-03 18:55:54.229 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.229 CEST [53066] LOG:  duration: 0.060 ms
+2020-09-03 18:55:54.230 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.230 CEST [53068] LOG:  duration: 0.231 ms
+2020-09-03 18:55:54.231 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.231 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:54.244 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.244 CEST [53066] LOG:  duration: 0.047 ms
+2020-09-03 18:55:54.244 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.244 CEST [53066] LOG:  duration: 0.166 ms
+2020-09-03 18:55:54.246 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.246 CEST [53068] LOG:  duration: 0.051 ms
+2020-09-03 18:55:54.246 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.246 CEST [53068] LOG:  duration: 0.134 ms
+2020-09-03 18:55:54.246 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.246 CEST [53068] LOG:  duration: 0.039 ms
+2020-09-03 18:55:54.247 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.247 CEST [53066] LOG:  duration: 0.198 ms
+2020-09-03 18:55:54.249 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.249 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:54.261 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.261 CEST [53068] LOG:  duration: 0.047 ms
+2020-09-03 18:55:54.261 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.262 CEST [53068] LOG:  duration: 0.210 ms
+2020-09-03 18:55:54.263 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.263 CEST [53066] LOG:  duration: 0.049 ms
+2020-09-03 18:55:54.263 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.263 CEST [53066] LOG:  duration: 0.120 ms
+2020-09-03 18:55:54.264 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.264 CEST [53066] LOG:  duration: 0.053 ms
+2020-09-03 18:55:54.265 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.265 CEST [53068] LOG:  duration: 0.260 ms
+2020-09-03 18:55:54.268 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.268 CEST [53068] LOG:  duration: 0.079 ms
+2020-09-03 18:55:54.283 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.283 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:54.284 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.284 CEST [53066] LOG:  duration: 0.296 ms
+2020-09-03 18:55:54.287 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.287 CEST [53068] LOG:  duration: 0.062 ms
+2020-09-03 18:55:54.287 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.287 CEST [53068] LOG:  duration: 0.154 ms
+2020-09-03 18:55:54.288 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.288 CEST [53068] LOG:  duration: 0.047 ms
+2020-09-03 18:55:54.289 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.289 CEST [53066] LOG:  duration: 0.214 ms
+2020-09-03 18:55:54.291 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.291 CEST [53066] LOG:  duration: 0.110 ms
+2020-09-03 18:55:54.302 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.302 CEST [53068] LOG:  duration: 0.064 ms
+2020-09-03 18:55:54.302 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.303 CEST [53068] LOG:  duration: 0.248 ms
+2020-09-03 18:55:54.305 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.305 CEST [53066] LOG:  duration: 0.082 ms
+2020-09-03 18:55:54.305 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.306 CEST [53066] LOG:  duration: 0.404 ms
+2020-09-03 18:55:54.306 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.306 CEST [53066] LOG:  duration: 0.058 ms
+2020-09-03 18:55:54.308 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.308 CEST [53068] LOG:  duration: 0.255 ms
+2020-09-03 18:55:54.310 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.310 CEST [53068] LOG:  duration: 0.081 ms
+2020-09-03 18:55:54.321 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.321 CEST [53066] LOG:  duration: 0.062 ms
+2020-09-03 18:55:54.321 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.322 CEST [53066] LOG:  duration: 0.278 ms
+2020-09-03 18:55:54.324 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.324 CEST [53068] LOG:  duration: 0.060 ms
+2020-09-03 18:55:54.325 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.325 CEST [53068] LOG:  duration: 0.215 ms
+2020-09-03 18:55:54.325 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.325 CEST [53068] LOG:  duration: 0.069 ms
+2020-09-03 18:55:54.327 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.327 CEST [53066] LOG:  duration: 0.252 ms
+2020-09-03 18:55:54.328 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.328 CEST [53066] LOG:  duration: 0.076 ms
+2020-09-03 18:55:54.343 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.343 CEST [53068] LOG:  duration: 0.063 ms
+2020-09-03 18:55:54.344 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.344 CEST [53068] LOG:  duration: 0.265 ms
+2020-09-03 18:55:54.346 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.346 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:54.346 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.346 CEST [53066] LOG:  duration: 0.161 ms
+2020-09-03 18:55:54.347 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.347 CEST [53066] LOG:  duration: 0.051 ms
+2020-09-03 18:55:54.348 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.348 CEST [53068] LOG:  duration: 0.237 ms
+2020-09-03 18:55:54.350 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.350 CEST [53068] LOG:  duration: 0.076 ms
+2020-09-03 18:55:54.361 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.361 CEST [53066] LOG:  duration: 0.061 ms
+2020-09-03 18:55:54.361 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.362 CEST [53066] LOG:  duration: 0.254 ms
+2020-09-03 18:55:54.364 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.364 CEST [53068] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.364 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.364 CEST [53068] LOG:  duration: 0.138 ms
+2020-09-03 18:55:54.364 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.364 CEST [53068] LOG:  duration: 0.057 ms
+2020-09-03 18:55:54.365 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.365 CEST [53066] LOG:  duration: 0.222 ms
+2020-09-03 18:55:54.367 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.367 CEST [53066] LOG:  duration: 0.069 ms
+2020-09-03 18:55:54.487 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.487 CEST [53068] LOG:  duration: 0.061 ms
+2020-09-03 18:55:54.487 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.487 CEST [53068] LOG:  duration: 0.198 ms
+2020-09-03 18:55:54.492 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.493 CEST [53066] LOG:  duration: 0.120 ms
+2020-09-03 18:55:54.493 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.494 CEST [53066] LOG:  duration: 0.416 ms
+2020-09-03 18:55:54.494 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.494 CEST [53066] LOG:  duration: 0.050 ms
+2020-09-03 18:55:54.495 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.495 CEST [53068] LOG:  duration: 0.344 ms
+2020-09-03 18:55:54.497 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.497 CEST [53068] LOG:  duration: 0.081 ms
+2020-09-03 18:55:54.508 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.508 CEST [53066] LOG:  duration: 0.065 ms
+2020-09-03 18:55:54.509 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.509 CEST [53066] LOG:  duration: 0.266 ms
+2020-09-03 18:55:54.511 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.511 CEST [53068] LOG:  duration: 0.057 ms
+2020-09-03 18:55:54.511 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.511 CEST [53068] LOG:  duration: 0.167 ms
+2020-09-03 18:55:54.511 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.511 CEST [53068] LOG:  duration: 0.045 ms
+2020-09-03 18:55:54.512 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.513 CEST [53066] LOG:  duration: 0.236 ms
+2020-09-03 18:55:54.514 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.514 CEST [53066] LOG:  duration: 0.069 ms
+2020-09-03 18:55:54.527 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.527 CEST [53068] LOG:  duration: 0.057 ms
+2020-09-03 18:55:54.527 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.527 CEST [53068] LOG:  duration: 0.172 ms
+2020-09-03 18:55:54.530 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.530 CEST [53066] LOG:  duration: 0.063 ms
+2020-09-03 18:55:54.532 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.533 CEST [53066] LOG:  duration: 0.446 ms
+2020-09-03 18:55:54.534 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.534 CEST [53066] LOG:  duration: 0.108 ms
+2020-09-03 18:55:54.536 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.537 CEST [53068] LOG:  duration: 1.095 ms
+2020-09-03 18:55:54.539 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.539 CEST [53068] LOG:  duration: 0.078 ms
+2020-09-03 18:55:54.551 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.551 CEST [53066] LOG:  duration: 0.059 ms
+2020-09-03 18:55:54.551 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.552 CEST [53066] LOG:  duration: 0.227 ms
+2020-09-03 18:55:54.554 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.554 CEST [53068] LOG:  duration: 0.043 ms
+2020-09-03 18:55:54.554 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.554 CEST [53068] LOG:  duration: 0.146 ms
+2020-09-03 18:55:54.555 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.555 CEST [53068] LOG:  duration: 0.167 ms
+2020-09-03 18:55:54.558 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.558 CEST [53066] LOG:  duration: 0.212 ms
+2020-09-03 18:55:54.561 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.561 CEST [53066] LOG:  duration: 0.170 ms
+2020-09-03 18:55:54.576 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.576 CEST [53068] LOG:  duration: 0.068 ms
+2020-09-03 18:55:54.577 CEST [53068] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.577 CEST [53068] LOG:  duration: 0.241 ms
+2020-09-03 18:55:54.580 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.580 CEST [53066] LOG:  duration: 0.127 ms
+2020-09-03 18:55:54.580 CEST [53066] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.580 CEST [53066] LOG:  duration: 0.349 ms
+2020-09-03 18:55:54.581 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.581 CEST [53066] LOG:  duration: 0.163 ms
+2020-09-03 18:55:54.586 CEST [53068] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.586 CEST [53068] LOG:  duration: 0.209 ms
+2020-09-03 18:55:54.587 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.587 CEST [53068] LOG:  duration: 0.087 ms
+2020-09-03 18:55:54.601 CEST [53066] LOG:  statement: BEGIN
+2020-09-03 18:55:54.601 CEST [53066] LOG:  duration: 0.056 ms
+2020-09-03 18:55:54.601 CEST [53066] LOG:  statement: SELECT surfaces.id AS surfaces_id, ST_AsEWKB(surfaces.geometry) AS surfaces_geometry, surfaces.solid_num AS surfaces_solid_num, surfaces.shell_num_void AS surfaces_shell_num_void, surfaces.surface_num AS surfaces_surface_num, surfaces.geometries_id AS surfaces_geometries_id, surfaces.semantic_surface_id AS surfaces_semantic_surface_id, surfaces.city_object_id AS surfaces_city_object_id 
+	FROM surfaces 
+	WHERE surfaces.id = '16477'
+2020-09-03 18:55:54.602 CEST [53066] LOG:  duration: 0.633 ms
+2020-09-03 18:55:54.605 CEST [53068] LOG:  statement: BEGIN
+2020-09-03 18:55:54.605 CEST [53068] LOG:  duration: 0.053 ms
+2020-09-03 18:55:54.605 CEST [53068] LOG:  statement: SELECT ST_AsText(ST_GeomFromEWKB('\x01030000a0f71c000001000000050000009eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740d9cef7539d3cf340d9cef7d3cff11b41c976be9f1aef274008ac1c5ac63cf340aaf1d24dc0f11b41f4fdd478e9262e40e7fba9f1003df3408d976e12caf11b41f4fdd478e9262e409eefa7c6d73cf340b29defa7d9f11b41c976be9f1aef2740'::bytea)) AS "ST_AsText_1"
+2020-09-03 18:55:54.605 CEST [53068] LOG:  duration: 0.152 ms
+2020-09-03 18:55:54.606 CEST [53068] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.606 CEST [53068] LOG:  duration: 0.055 ms
+2020-09-03 18:55:54.607 CEST [53066] LOG:  statement: SELECT semantic_surface.id AS semantic_surface_id, semantic_surface.object AS semantic_surface_object, semantic_surface.city_object_id AS semantic_surface_city_object_id, semantic_surface.geometries_id AS semantic_surface_geometries_id 
+	FROM semantic_surface 
+	WHERE semantic_surface.id = 10882
+2020-09-03 18:55:54.607 CEST [53066] LOG:  duration: 0.247 ms
+2020-09-03 18:55:54.609 CEST [53066] LOG:  statement: ROLLBACK
+2020-09-03 18:55:54.609 CEST [53066] LOG:  duration: 0.073 ms
+2020-09-03 18:56:17.765 CEST [53035] LOG:  received fast shutdown request
+2020-09-03 18:56:17.768 CEST [53035] LOG:  aborting any active transactions
+2020-09-03 18:56:17.768 CEST [53068] FATAL:  terminating connection due to administrator command
+2020-09-03 18:56:17.768 CEST [53066] FATAL:  terminating connection due to administrator command
+2020-09-03 18:56:17.769 CEST [53035] LOG:  background worker "logical replication launcher" (PID 53043) exited with exit code 1
+2020-09-03 18:56:17.771 CEST [53038] LOG:  shutting down
+2020-09-03 18:56:17.786 CEST [53035] LOG:  database system is shut down

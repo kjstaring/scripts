@@ -1,0 +1,1196 @@
+2020-09-03 18:59:28.394 CEST [53183] LOG:  database system was shut down at 2020-09-03 18:59:15 CEST
+2020-09-03 18:59:28.399 CEST [53181] LOG:  database system is ready to accept connections
+2020-09-03 19:00:14.834 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.834 CEST [53212] LOG:  duration: 0.207 ms
+2020-09-03 19:00:14.835 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.867 CEST [53212] LOG:  duration: 32.695 ms
+2020-09-03 19:00:14.873 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.874 CEST [53212] LOG:  duration: 1.947 ms
+2020-09-03 19:00:14.878 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.879 CEST [53212] LOG:  duration: 0.087 ms
+2020-09-03 19:00:14.889 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.889 CEST [53212] LOG:  duration: 0.121 ms
+2020-09-03 19:00:14.889 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.890 CEST [53212] LOG:  duration: 0.282 ms
+2020-09-03 19:00:14.891 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.893 CEST [53212] LOG:  duration: 2.626 ms
+2020-09-03 19:00:14.895 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.895 CEST [53212] LOG:  duration: 0.078 ms
+2020-09-03 19:00:14.907 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.907 CEST [53212] LOG:  duration: 0.144 ms
+2020-09-03 19:00:14.908 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.908 CEST [53212] LOG:  duration: 0.283 ms
+2020-09-03 19:00:14.909 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.911 CEST [53212] LOG:  duration: 2.006 ms
+2020-09-03 19:00:14.912 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.912 CEST [53212] LOG:  duration: 0.070 ms
+2020-09-03 19:00:14.921 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.921 CEST [53212] LOG:  duration: 0.059 ms
+2020-09-03 19:00:14.921 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.922 CEST [53212] LOG:  duration: 0.703 ms
+2020-09-03 19:00:14.924 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.925 CEST [53212] LOG:  duration: 1.805 ms
+2020-09-03 19:00:14.927 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.927 CEST [53212] LOG:  duration: 0.079 ms
+2020-09-03 19:00:14.937 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.937 CEST [53212] LOG:  duration: 0.147 ms
+2020-09-03 19:00:14.937 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.937 CEST [53212] LOG:  duration: 0.272 ms
+2020-09-03 19:00:14.939 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.941 CEST [53212] LOG:  duration: 1.916 ms
+2020-09-03 19:00:14.946 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.946 CEST [53212] LOG:  duration: 0.133 ms
+2020-09-03 19:00:14.958 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.958 CEST [53212] LOG:  duration: 0.253 ms
+2020-09-03 19:00:14.958 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.959 CEST [53212] LOG:  duration: 1.257 ms
+2020-09-03 19:00:14.962 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.964 CEST [53212] LOG:  duration: 1.714 ms
+2020-09-03 19:00:14.966 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.966 CEST [53212] LOG:  duration: 0.498 ms
+2020-09-03 19:00:14.980 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.980 CEST [53212] LOG:  duration: 0.058 ms
+2020-09-03 19:00:14.980 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.980 CEST [53212] LOG:  duration: 0.271 ms
+2020-09-03 19:00:14.982 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:14.984 CEST [53212] LOG:  duration: 1.991 ms
+2020-09-03 19:00:14.985 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:14.985 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:14.995 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:14.995 CEST [53212] LOG:  duration: 0.060 ms
+2020-09-03 19:00:14.995 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:14.996 CEST [53212] LOG:  duration: 0.270 ms
+2020-09-03 19:00:14.997 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.000 CEST [53212] LOG:  duration: 2.631 ms
+2020-09-03 19:00:15.001 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.001 CEST [53212] LOG:  duration: 0.064 ms
+2020-09-03 19:00:15.010 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.010 CEST [53212] LOG:  duration: 0.094 ms
+2020-09-03 19:00:15.011 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.011 CEST [53212] LOG:  duration: 0.429 ms
+2020-09-03 19:00:15.014 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.016 CEST [53212] LOG:  duration: 2.065 ms
+2020-09-03 19:00:15.019 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.019 CEST [53212] LOG:  duration: 0.083 ms
+2020-09-03 19:00:15.029 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.029 CEST [53212] LOG:  duration: 0.066 ms
+2020-09-03 19:00:15.029 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.030 CEST [53212] LOG:  duration: 0.636 ms
+2020-09-03 19:00:15.033 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.034 CEST [53212] LOG:  duration: 1.426 ms
+2020-09-03 19:00:15.035 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.035 CEST [53212] LOG:  duration: 0.088 ms
+2020-09-03 19:00:15.045 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.045 CEST [53212] LOG:  duration: 0.161 ms
+2020-09-03 19:00:15.046 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.046 CEST [53212] LOG:  duration: 0.557 ms
+2020-09-03 19:00:15.048 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.050 CEST [53212] LOG:  duration: 2.494 ms
+2020-09-03 19:00:15.052 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.052 CEST [53212] LOG:  duration: 0.175 ms
+2020-09-03 19:00:15.067 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.067 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:15.068 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.068 CEST [53212] LOG:  duration: 0.272 ms
+2020-09-03 19:00:15.070 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.072 CEST [53212] LOG:  duration: 2.530 ms
+2020-09-03 19:00:15.074 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.074 CEST [53212] LOG:  duration: 0.070 ms
+2020-09-03 19:00:15.083 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.084 CEST [53212] LOG:  duration: 0.057 ms
+2020-09-03 19:00:15.084 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.084 CEST [53212] LOG:  duration: 0.348 ms
+2020-09-03 19:00:15.086 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.089 CEST [53212] LOG:  duration: 2.572 ms
+2020-09-03 19:00:15.091 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.092 CEST [53212] LOG:  duration: 0.105 ms
+2020-09-03 19:00:15.103 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.103 CEST [53212] LOG:  duration: 0.059 ms
+2020-09-03 19:00:15.103 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.104 CEST [53212] LOG:  duration: 0.246 ms
+2020-09-03 19:00:15.107 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.108 CEST [53212] LOG:  duration: 1.571 ms
+2020-09-03 19:00:15.113 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.113 CEST [53212] LOG:  duration: 0.119 ms
+2020-09-03 19:00:15.146 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.146 CEST [53212] LOG:  duration: 0.068 ms
+2020-09-03 19:00:15.146 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.146 CEST [53212] LOG:  duration: 0.391 ms
+2020-09-03 19:00:15.148 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.150 CEST [53212] LOG:  duration: 1.597 ms
+2020-09-03 19:00:15.152 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.152 CEST [53212] LOG:  duration: 0.067 ms
+2020-09-03 19:00:15.163 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.163 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:15.163 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.164 CEST [53212] LOG:  duration: 0.520 ms
+2020-09-03 19:00:15.167 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.170 CEST [53212] LOG:  duration: 3.258 ms
+2020-09-03 19:00:15.172 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.172 CEST [53212] LOG:  duration: 0.074 ms
+2020-09-03 19:00:15.181 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.181 CEST [53212] LOG:  duration: 0.063 ms
+2020-09-03 19:00:15.182 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.182 CEST [53212] LOG:  duration: 0.261 ms
+2020-09-03 19:00:15.183 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.186 CEST [53212] LOG:  duration: 2.745 ms
+2020-09-03 19:00:15.190 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.190 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:15.201 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.201 CEST [53212] LOG:  duration: 0.053 ms
+2020-09-03 19:00:15.201 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.202 CEST [53212] LOG:  duration: 0.779 ms
+2020-09-03 19:00:15.204 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.207 CEST [53212] LOG:  duration: 2.764 ms
+2020-09-03 19:00:15.209 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.209 CEST [53212] LOG:  duration: 0.070 ms
+2020-09-03 19:00:15.218 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.218 CEST [53212] LOG:  duration: 0.109 ms
+2020-09-03 19:00:15.218 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.218 CEST [53212] LOG:  duration: 0.334 ms
+2020-09-03 19:00:15.220 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.222 CEST [53212] LOG:  duration: 1.900 ms
+2020-09-03 19:00:15.223 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.223 CEST [53212] LOG:  duration: 0.140 ms
+2020-09-03 19:00:15.232 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.232 CEST [53212] LOG:  duration: 0.060 ms
+2020-09-03 19:00:15.232 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.232 CEST [53212] LOG:  duration: 0.433 ms
+2020-09-03 19:00:15.234 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.235 CEST [53212] LOG:  duration: 1.758 ms
+2020-09-03 19:00:15.237 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.237 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:15.247 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.248 CEST [53212] LOG:  duration: 0.057 ms
+2020-09-03 19:00:15.248 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.248 CEST [53212] LOG:  duration: 0.430 ms
+2020-09-03 19:00:15.250 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.252 CEST [53212] LOG:  duration: 1.823 ms
+2020-09-03 19:00:15.254 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.254 CEST [53212] LOG:  duration: 0.074 ms
+2020-09-03 19:00:15.263 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.264 CEST [53212] LOG:  duration: 0.354 ms
+2020-09-03 19:00:15.264 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.264 CEST [53212] LOG:  duration: 0.368 ms
+2020-09-03 19:00:15.266 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.267 CEST [53212] LOG:  duration: 1.431 ms
+2020-09-03 19:00:15.269 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.269 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:15.280 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.280 CEST [53212] LOG:  duration: 0.058 ms
+2020-09-03 19:00:15.280 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.280 CEST [53212] LOG:  duration: 0.259 ms
+2020-09-03 19:00:15.282 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.285 CEST [53212] LOG:  duration: 2.495 ms
+2020-09-03 19:00:15.290 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.290 CEST [53212] LOG:  duration: 0.539 ms
+2020-09-03 19:00:15.303 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.303 CEST [53212] LOG:  duration: 0.105 ms
+2020-09-03 19:00:15.303 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.303 CEST [53212] LOG:  duration: 0.335 ms
+2020-09-03 19:00:15.305 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.307 CEST [53212] LOG:  duration: 2.553 ms
+2020-09-03 19:00:15.309 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.309 CEST [53212] LOG:  duration: 0.156 ms
+2020-09-03 19:00:15.323 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.323 CEST [53212] LOG:  duration: 0.056 ms
+2020-09-03 19:00:15.323 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.324 CEST [53212] LOG:  duration: 0.614 ms
+2020-09-03 19:00:15.328 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.330 CEST [53212] LOG:  duration: 2.244 ms
+2020-09-03 19:00:15.331 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.331 CEST [53212] LOG:  duration: 0.068 ms
+2020-09-03 19:00:15.342 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.342 CEST [53212] LOG:  duration: 0.119 ms
+2020-09-03 19:00:15.343 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.343 CEST [53212] LOG:  duration: 0.303 ms
+2020-09-03 19:00:15.345 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.346 CEST [53212] LOG:  duration: 1.639 ms
+2020-09-03 19:00:15.348 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.348 CEST [53212] LOG:  duration: 0.072 ms
+2020-09-03 19:00:15.361 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.361 CEST [53212] LOG:  duration: 0.054 ms
+2020-09-03 19:00:15.361 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.362 CEST [53212] LOG:  duration: 0.298 ms
+2020-09-03 19:00:15.363 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.365 CEST [53212] LOG:  duration: 1.520 ms
+2020-09-03 19:00:15.366 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.366 CEST [53212] LOG:  duration: 0.217 ms
+2020-09-03 19:00:15.383 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.383 CEST [53212] LOG:  duration: 0.118 ms
+2020-09-03 19:00:15.383 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.383 CEST [53212] LOG:  duration: 0.319 ms
+2020-09-03 19:00:15.385 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.388 CEST [53212] LOG:  duration: 3.132 ms
+2020-09-03 19:00:15.390 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.390 CEST [53212] LOG:  duration: 0.071 ms
+2020-09-03 19:00:15.403 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.403 CEST [53212] LOG:  duration: 0.118 ms
+2020-09-03 19:00:15.403 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.404 CEST [53212] LOG:  duration: 0.242 ms
+2020-09-03 19:00:15.405 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.408 CEST [53212] LOG:  duration: 3.132 ms
+2020-09-03 19:00:15.411 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.411 CEST [53212] LOG:  duration: 0.074 ms
+2020-09-03 19:00:15.421 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.421 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:15.421 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.421 CEST [53212] LOG:  duration: 0.276 ms
+2020-09-03 19:00:15.422 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.425 CEST [53212] LOG:  duration: 2.588 ms
+2020-09-03 19:00:15.429 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.429 CEST [53212] LOG:  duration: 0.076 ms
+2020-09-03 19:00:15.439 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.439 CEST [53212] LOG:  duration: 0.063 ms
+2020-09-03 19:00:15.439 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.439 CEST [53212] LOG:  duration: 0.274 ms
+2020-09-03 19:00:15.441 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.442 CEST [53212] LOG:  duration: 1.512 ms
+2020-09-03 19:00:15.445 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.445 CEST [53212] LOG:  duration: 0.067 ms
+2020-09-03 19:00:15.459 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.459 CEST [53212] LOG:  duration: 0.061 ms
+2020-09-03 19:00:15.459 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.460 CEST [53212] LOG:  duration: 0.282 ms
+2020-09-03 19:00:15.461 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.462 CEST [53212] LOG:  duration: 0.921 ms
+2020-09-03 19:00:15.465 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.466 CEST [53212] LOG:  duration: 0.147 ms
+2020-09-03 19:00:15.476 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.476 CEST [53212] LOG:  duration: 0.061 ms
+2020-09-03 19:00:15.476 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.476 CEST [53212] LOG:  duration: 0.321 ms
+2020-09-03 19:00:15.478 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.479 CEST [53212] LOG:  duration: 1.110 ms
+2020-09-03 19:00:15.484 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.484 CEST [53212] LOG:  duration: 0.196 ms
+2020-09-03 19:00:15.494 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.494 CEST [53212] LOG:  duration: 0.047 ms
+2020-09-03 19:00:15.494 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.494 CEST [53212] LOG:  duration: 0.300 ms
+2020-09-03 19:00:15.497 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.499 CEST [53212] LOG:  duration: 2.686 ms
+2020-09-03 19:00:15.501 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.501 CEST [53212] LOG:  duration: 0.118 ms
+2020-09-03 19:00:15.511 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.511 CEST [53212] LOG:  duration: 0.057 ms
+2020-09-03 19:00:15.512 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.512 CEST [53212] LOG:  duration: 0.235 ms
+2020-09-03 19:00:15.514 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.517 CEST [53212] LOG:  duration: 2.960 ms
+2020-09-03 19:00:15.518 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.518 CEST [53212] LOG:  duration: 0.052 ms
+2020-09-03 19:00:15.531 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.531 CEST [53212] LOG:  duration: 0.064 ms
+2020-09-03 19:00:15.531 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.531 CEST [53212] LOG:  duration: 0.295 ms
+2020-09-03 19:00:15.533 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.535 CEST [53212] LOG:  duration: 2.164 ms
+2020-09-03 19:00:15.537 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.537 CEST [53212] LOG:  duration: 0.423 ms
+2020-09-03 19:00:15.550 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.550 CEST [53212] LOG:  duration: 0.153 ms
+2020-09-03 19:00:15.551 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.551 CEST [53212] LOG:  duration: 0.292 ms
+2020-09-03 19:00:15.553 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.554 CEST [53212] LOG:  duration: 1.354 ms
+2020-09-03 19:00:15.556 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.556 CEST [53212] LOG:  duration: 0.094 ms
+2020-09-03 19:00:15.564 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.564 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:15.564 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.564 CEST [53212] LOG:  duration: 0.272 ms
+2020-09-03 19:00:15.566 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.566 CEST [53212] LOG:  duration: 0.840 ms
+2020-09-03 19:00:15.568 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.568 CEST [53212] LOG:  duration: 0.124 ms
+2020-09-03 19:00:15.608 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.608 CEST [53212] LOG:  duration: 0.095 ms
+2020-09-03 19:00:15.608 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.608 CEST [53212] LOG:  duration: 0.250 ms
+2020-09-03 19:00:15.610 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.612 CEST [53212] LOG:  duration: 1.568 ms
+2020-09-03 19:00:15.615 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.615 CEST [53212] LOG:  duration: 0.085 ms
+2020-09-03 19:00:15.627 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.627 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:15.627 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.628 CEST [53212] LOG:  duration: 0.286 ms
+2020-09-03 19:00:15.629 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.631 CEST [53212] LOG:  duration: 1.604 ms
+2020-09-03 19:00:15.632 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.632 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:15.645 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.645 CEST [53212] LOG:  duration: 0.145 ms
+2020-09-03 19:00:15.646 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.646 CEST [53212] LOG:  duration: 0.402 ms
+2020-09-03 19:00:15.648 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.650 CEST [53212] LOG:  duration: 1.942 ms
+2020-09-03 19:00:15.652 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.652 CEST [53212] LOG:  duration: 0.070 ms
+2020-09-03 19:00:15.666 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.666 CEST [53212] LOG:  duration: 0.050 ms
+2020-09-03 19:00:15.666 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.667 CEST [53212] LOG:  duration: 0.712 ms
+2020-09-03 19:00:15.668 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.669 CEST [53212] LOG:  duration: 0.820 ms
+2020-09-03 19:00:15.671 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.671 CEST [53212] LOG:  duration: 0.053 ms
+2020-09-03 19:00:15.684 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.684 CEST [53212] LOG:  duration: 0.049 ms
+2020-09-03 19:00:15.684 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.684 CEST [53212] LOG:  duration: 0.258 ms
+2020-09-03 19:00:15.685 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.686 CEST [53212] LOG:  duration: 1.274 ms
+2020-09-03 19:00:15.688 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.688 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:15.696 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.696 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:15.696 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.696 CEST [53212] LOG:  duration: 0.291 ms
+2020-09-03 19:00:15.697 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.699 CEST [53212] LOG:  duration: 1.456 ms
+2020-09-03 19:00:15.701 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.701 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:15.707 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.707 CEST [53212] LOG:  duration: 0.042 ms
+2020-09-03 19:00:15.707 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.707 CEST [53212] LOG:  duration: 0.246 ms
+2020-09-03 19:00:15.708 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.711 CEST [53212] LOG:  duration: 2.487 ms
+2020-09-03 19:00:15.713 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.713 CEST [53212] LOG:  duration: 0.075 ms
+2020-09-03 19:00:15.723 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.723 CEST [53212] LOG:  duration: 0.053 ms
+2020-09-03 19:00:15.724 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.724 CEST [53212] LOG:  duration: 0.228 ms
+2020-09-03 19:00:15.725 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.727 CEST [53212] LOG:  duration: 2.522 ms
+2020-09-03 19:00:15.729 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.729 CEST [53212] LOG:  duration: 0.068 ms
+2020-09-03 19:00:15.737 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.737 CEST [53212] LOG:  duration: 0.047 ms
+2020-09-03 19:00:15.738 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.738 CEST [53212] LOG:  duration: 0.272 ms
+2020-09-03 19:00:15.739 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.739 CEST [53212] LOG:  duration: 0.766 ms
+2020-09-03 19:00:15.741 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.741 CEST [53212] LOG:  duration: 0.107 ms
+2020-09-03 19:00:15.753 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.753 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:15.753 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.753 CEST [53212] LOG:  duration: 0.480 ms
+2020-09-03 19:00:15.755 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.757 CEST [53212] LOG:  duration: 2.255 ms
+2020-09-03 19:00:15.758 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.758 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:15.770 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.770 CEST [53212] LOG:  duration: 0.058 ms
+2020-09-03 19:00:15.770 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.770 CEST [53212] LOG:  duration: 0.268 ms
+2020-09-03 19:00:15.772 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.774 CEST [53212] LOG:  duration: 1.914 ms
+2020-09-03 19:00:15.777 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.778 CEST [53212] LOG:  duration: 0.143 ms
+2020-09-03 19:00:15.787 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.787 CEST [53212] LOG:  duration: 0.233 ms
+2020-09-03 19:00:15.788 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.788 CEST [53212] LOG:  duration: 0.866 ms
+2020-09-03 19:00:15.791 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.792 CEST [53212] LOG:  duration: 1.806 ms
+2020-09-03 19:00:15.797 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.797 CEST [53212] LOG:  duration: 0.109 ms
+2020-09-03 19:00:15.809 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.809 CEST [53212] LOG:  duration: 0.061 ms
+2020-09-03 19:00:15.809 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.809 CEST [53212] LOG:  duration: 0.275 ms
+2020-09-03 19:00:15.810 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.812 CEST [53212] LOG:  duration: 1.814 ms
+2020-09-03 19:00:15.814 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.815 CEST [53212] LOG:  duration: 0.188 ms
+2020-09-03 19:00:15.823 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.823 CEST [53212] LOG:  duration: 0.135 ms
+2020-09-03 19:00:15.823 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.824 CEST [53212] LOG:  duration: 0.351 ms
+2020-09-03 19:00:15.826 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.828 CEST [53212] LOG:  duration: 2.014 ms
+2020-09-03 19:00:15.829 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.829 CEST [53212] LOG:  duration: 0.079 ms
+2020-09-03 19:00:15.838 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.838 CEST [53212] LOG:  duration: 0.054 ms
+2020-09-03 19:00:15.838 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.839 CEST [53212] LOG:  duration: 0.459 ms
+2020-09-03 19:00:15.841 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.843 CEST [53212] LOG:  duration: 2.094 ms
+2020-09-03 19:00:15.844 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.844 CEST [53212] LOG:  duration: 0.087 ms
+2020-09-03 19:00:15.854 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.855 CEST [53212] LOG:  duration: 0.073 ms
+2020-09-03 19:00:15.855 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.855 CEST [53212] LOG:  duration: 0.561 ms
+2020-09-03 19:00:15.857 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.859 CEST [53212] LOG:  duration: 2.261 ms
+2020-09-03 19:00:15.862 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.862 CEST [53212] LOG:  duration: 0.095 ms
+2020-09-03 19:00:15.874 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.874 CEST [53212] LOG:  duration: 0.051 ms
+2020-09-03 19:00:15.874 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.874 CEST [53212] LOG:  duration: 0.305 ms
+2020-09-03 19:00:15.876 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.877 CEST [53212] LOG:  duration: 1.683 ms
+2020-09-03 19:00:15.879 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.879 CEST [53212] LOG:  duration: 0.076 ms
+2020-09-03 19:00:15.887 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.887 CEST [53212] LOG:  duration: 0.078 ms
+2020-09-03 19:00:15.888 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.888 CEST [53212] LOG:  duration: 0.407 ms
+2020-09-03 19:00:15.889 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.891 CEST [53212] LOG:  duration: 1.507 ms
+2020-09-03 19:00:15.893 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.893 CEST [53212] LOG:  duration: 0.092 ms
+2020-09-03 19:00:15.907 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.908 CEST [53212] LOG:  duration: 0.452 ms
+2020-09-03 19:00:15.908 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.908 CEST [53212] LOG:  duration: 0.461 ms
+2020-09-03 19:00:15.911 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.913 CEST [53212] LOG:  duration: 1.783 ms
+2020-09-03 19:00:15.917 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.917 CEST [53212] LOG:  duration: 0.090 ms
+2020-09-03 19:00:15.929 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.930 CEST [53212] LOG:  duration: 0.127 ms
+2020-09-03 19:00:15.930 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.930 CEST [53212] LOG:  duration: 0.309 ms
+2020-09-03 19:00:15.931 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.935 CEST [53212] LOG:  duration: 3.659 ms
+2020-09-03 19:00:15.940 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.941 CEST [53212] LOG:  duration: 0.620 ms
+2020-09-03 19:00:15.957 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.957 CEST [53212] LOG:  duration: 0.058 ms
+2020-09-03 19:00:15.957 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.957 CEST [53212] LOG:  duration: 0.291 ms
+2020-09-03 19:00:15.958 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.960 CEST [53212] LOG:  duration: 1.806 ms
+2020-09-03 19:00:15.962 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.962 CEST [53212] LOG:  duration: 0.155 ms
+2020-09-03 19:00:15.972 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.972 CEST [53212] LOG:  duration: 0.062 ms
+2020-09-03 19:00:15.974 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.975 CEST [53212] LOG:  duration: 0.423 ms
+2020-09-03 19:00:15.978 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.979 CEST [53212] LOG:  duration: 1.357 ms
+2020-09-03 19:00:15.981 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.981 CEST [53212] LOG:  duration: 0.352 ms
+2020-09-03 19:00:15.991 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:15.991 CEST [53212] LOG:  duration: 0.093 ms
+2020-09-03 19:00:15.991 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:15.991 CEST [53212] LOG:  duration: 0.250 ms
+2020-09-03 19:00:15.992 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:15.994 CEST [53212] LOG:  duration: 2.014 ms
+2020-09-03 19:00:15.999 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:15.999 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:16.008 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.008 CEST [53212] LOG:  duration: 0.114 ms
+2020-09-03 19:00:16.008 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.008 CEST [53212] LOG:  duration: 0.273 ms
+2020-09-03 19:00:16.010 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.011 CEST [53212] LOG:  duration: 1.693 ms
+2020-09-03 19:00:16.013 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.013 CEST [53212] LOG:  duration: 0.074 ms
+2020-09-03 19:00:16.022 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.022 CEST [53212] LOG:  duration: 0.060 ms
+2020-09-03 19:00:16.022 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.022 CEST [53212] LOG:  duration: 0.265 ms
+2020-09-03 19:00:16.023 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.025 CEST [53212] LOG:  duration: 1.965 ms
+2020-09-03 19:00:16.027 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.027 CEST [53212] LOG:  duration: 0.120 ms
+2020-09-03 19:00:16.039 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.039 CEST [53212] LOG:  duration: 0.110 ms
+2020-09-03 19:00:16.039 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.039 CEST [53212] LOG:  duration: 0.284 ms
+2020-09-03 19:00:16.041 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.042 CEST [53212] LOG:  duration: 1.738 ms
+2020-09-03 19:00:16.044 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.044 CEST [53212] LOG:  duration: 0.116 ms
+2020-09-03 19:00:16.055 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.056 CEST [53212] LOG:  duration: 0.099 ms
+2020-09-03 19:00:16.056 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.056 CEST [53212] LOG:  duration: 0.220 ms
+2020-09-03 19:00:16.057 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.057 CEST [53212] LOG:  duration: 0.825 ms
+2020-09-03 19:00:16.059 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.059 CEST [53212] LOG:  duration: 0.086 ms
+2020-09-03 19:00:16.139 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.139 CEST [53212] LOG:  duration: 0.524 ms
+2020-09-03 19:00:16.140 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.141 CEST [53212] LOG:  duration: 1.136 ms
+2020-09-03 19:00:16.142 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.144 CEST [53212] LOG:  duration: 2.451 ms
+2020-09-03 19:00:16.146 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.146 CEST [53212] LOG:  duration: 0.091 ms
+2020-09-03 19:00:16.158 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.158 CEST [53212] LOG:  duration: 0.192 ms
+2020-09-03 19:00:16.158 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.158 CEST [53212] LOG:  duration: 0.484 ms
+2020-09-03 19:00:16.160 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.162 CEST [53212] LOG:  duration: 1.852 ms
+2020-09-03 19:00:16.167 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.167 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:16.178 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.178 CEST [53212] LOG:  duration: 0.059 ms
+2020-09-03 19:00:16.178 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.178 CEST [53212] LOG:  duration: 0.303 ms
+2020-09-03 19:00:16.180 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.181 CEST [53212] LOG:  duration: 1.464 ms
+2020-09-03 19:00:16.182 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.182 CEST [53212] LOG:  duration: 0.063 ms
+2020-09-03 19:00:16.194 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.194 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:16.195 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.195 CEST [53212] LOG:  duration: 0.362 ms
+2020-09-03 19:00:16.197 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.199 CEST [53212] LOG:  duration: 2.105 ms
+2020-09-03 19:00:16.202 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.202 CEST [53212] LOG:  duration: 0.069 ms
+2020-09-03 19:00:16.211 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.211 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:16.212 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.212 CEST [53212] LOG:  duration: 0.280 ms
+2020-09-03 19:00:16.213 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.215 CEST [53212] LOG:  duration: 1.530 ms
+2020-09-03 19:00:16.220 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.220 CEST [53212] LOG:  duration: 0.446 ms
+2020-09-03 19:00:16.227 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.227 CEST [53212] LOG:  duration: 0.104 ms
+2020-09-03 19:00:16.227 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.227 CEST [53212] LOG:  duration: 0.241 ms
+2020-09-03 19:00:16.229 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.231 CEST [53212] LOG:  duration: 2.240 ms
+2020-09-03 19:00:16.235 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.235 CEST [53212] LOG:  duration: 0.064 ms
+2020-09-03 19:00:16.243 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.243 CEST [53212] LOG:  duration: 0.121 ms
+2020-09-03 19:00:16.244 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.245 CEST [53212] LOG:  duration: 1.484 ms
+2020-09-03 19:00:16.247 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.250 CEST [53212] LOG:  duration: 3.083 ms
+2020-09-03 19:00:16.257 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.257 CEST [53212] LOG:  duration: 0.216 ms
+2020-09-03 19:00:16.265 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.266 CEST [53212] LOG:  duration: 0.564 ms
+2020-09-03 19:00:16.266 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.267 CEST [53212] LOG:  duration: 0.705 ms
+2020-09-03 19:00:16.269 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.270 CEST [53212] LOG:  duration: 1.589 ms
+2020-09-03 19:00:16.272 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.272 CEST [53212] LOG:  duration: 0.076 ms
+2020-09-03 19:00:16.283 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.284 CEST [53212] LOG:  duration: 0.455 ms
+2020-09-03 19:00:16.284 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.284 CEST [53212] LOG:  duration: 0.354 ms
+2020-09-03 19:00:16.285 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.286 CEST [53212] LOG:  duration: 0.802 ms
+2020-09-03 19:00:16.287 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.287 CEST [53212] LOG:  duration: 0.085 ms
+2020-09-03 19:00:16.302 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.302 CEST [53212] LOG:  duration: 0.060 ms
+2020-09-03 19:00:16.302 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.303 CEST [53212] LOG:  duration: 0.259 ms
+2020-09-03 19:00:16.306 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.308 CEST [53212] LOG:  duration: 2.143 ms
+2020-09-03 19:00:16.310 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.310 CEST [53212] LOG:  duration: 0.075 ms
+2020-09-03 19:00:16.319 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.319 CEST [53212] LOG:  duration: 0.296 ms
+2020-09-03 19:00:16.319 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.319 CEST [53212] LOG:  duration: 0.264 ms
+2020-09-03 19:00:16.320 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.322 CEST [53212] LOG:  duration: 1.610 ms
+2020-09-03 19:00:16.324 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.325 CEST [53212] LOG:  duration: 0.185 ms
+2020-09-03 19:00:16.334 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.334 CEST [53212] LOG:  duration: 0.056 ms
+2020-09-03 19:00:16.334 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.335 CEST [53212] LOG:  duration: 0.251 ms
+2020-09-03 19:00:16.336 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.338 CEST [53212] LOG:  duration: 1.809 ms
+2020-09-03 19:00:16.341 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.341 CEST [53212] LOG:  duration: 0.078 ms
+2020-09-03 19:00:16.353 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.353 CEST [53212] LOG:  duration: 0.120 ms
+2020-09-03 19:00:16.353 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.353 CEST [53212] LOG:  duration: 0.320 ms
+2020-09-03 19:00:16.357 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.360 CEST [53212] LOG:  duration: 3.284 ms
+2020-09-03 19:00:16.361 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.361 CEST [53212] LOG:  duration: 0.109 ms
+2020-09-03 19:00:16.372 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.372 CEST [53212] LOG:  duration: 0.096 ms
+2020-09-03 19:00:16.372 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.372 CEST [53212] LOG:  duration: 0.246 ms
+2020-09-03 19:00:16.373 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.374 CEST [53212] LOG:  duration: 0.847 ms
+2020-09-03 19:00:16.375 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.375 CEST [53212] LOG:  duration: 0.080 ms
+2020-09-03 19:00:16.385 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.385 CEST [53212] LOG:  duration: 0.183 ms
+2020-09-03 19:00:16.386 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.386 CEST [53212] LOG:  duration: 0.539 ms
+2020-09-03 19:00:16.389 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.391 CEST [53212] LOG:  duration: 1.506 ms
+2020-09-03 19:00:16.392 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.392 CEST [53212] LOG:  duration: 0.236 ms
+2020-09-03 19:00:16.407 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.407 CEST [53212] LOG:  duration: 0.056 ms
+2020-09-03 19:00:16.407 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.408 CEST [53212] LOG:  duration: 0.378 ms
+2020-09-03 19:00:16.409 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.411 CEST [53212] LOG:  duration: 1.897 ms
+2020-09-03 19:00:16.413 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.413 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:16.423 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.423 CEST [53212] LOG:  duration: 0.156 ms
+2020-09-03 19:00:16.424 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.425 CEST [53212] LOG:  duration: 0.802 ms
+2020-09-03 19:00:16.427 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.429 CEST [53212] LOG:  duration: 1.756 ms
+2020-09-03 19:00:16.430 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.430 CEST [53212] LOG:  duration: 0.066 ms
+2020-09-03 19:00:16.440 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.440 CEST [53212] LOG:  duration: 0.052 ms
+2020-09-03 19:00:16.441 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.441 CEST [53212] LOG:  duration: 0.258 ms
+2020-09-03 19:00:16.442 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.444 CEST [53212] LOG:  duration: 1.981 ms
+2020-09-03 19:00:16.446 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.446 CEST [53212] LOG:  duration: 0.082 ms
+2020-09-03 19:00:16.458 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.458 CEST [53212] LOG:  duration: 0.048 ms
+2020-09-03 19:00:16.458 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.458 CEST [53212] LOG:  duration: 0.260 ms
+2020-09-03 19:00:16.462 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.464 CEST [53212] LOG:  duration: 2.075 ms
+2020-09-03 19:00:16.465 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.465 CEST [53212] LOG:  duration: 0.060 ms
+2020-09-03 19:00:16.473 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.473 CEST [53212] LOG:  duration: 0.052 ms
+2020-09-03 19:00:16.473 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.473 CEST [53212] LOG:  duration: 0.262 ms
+2020-09-03 19:00:16.475 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.477 CEST [53212] LOG:  duration: 1.482 ms
+2020-09-03 19:00:16.478 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.478 CEST [53212] LOG:  duration: 0.079 ms
+2020-09-03 19:00:16.488 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.488 CEST [53212] LOG:  duration: 0.065 ms
+2020-09-03 19:00:16.488 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.488 CEST [53212] LOG:  duration: 0.322 ms
+2020-09-03 19:00:16.490 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.491 CEST [53212] LOG:  duration: 1.614 ms
+2020-09-03 19:00:16.493 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.493 CEST [53212] LOG:  duration: 0.076 ms
+2020-09-03 19:00:16.502 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.502 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:16.502 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.503 CEST [53212] LOG:  duration: 0.465 ms
+2020-09-03 19:00:16.505 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.509 CEST [53212] LOG:  duration: 4.054 ms
+2020-09-03 19:00:16.514 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.514 CEST [53212] LOG:  duration: 0.381 ms
+2020-09-03 19:00:16.525 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.525 CEST [53212] LOG:  duration: 0.052 ms
+2020-09-03 19:00:16.525 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.525 CEST [53212] LOG:  duration: 0.256 ms
+2020-09-03 19:00:16.527 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.528 CEST [53212] LOG:  duration: 1.892 ms
+2020-09-03 19:00:16.532 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.532 CEST [53212] LOG:  duration: 0.165 ms
+2020-09-03 19:00:16.541 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.541 CEST [53212] LOG:  duration: 0.053 ms
+2020-09-03 19:00:16.541 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.541 CEST [53212] LOG:  duration: 0.247 ms
+2020-09-03 19:00:16.542 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.544 CEST [53212] LOG:  duration: 1.486 ms
+2020-09-03 19:00:16.546 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.546 CEST [53212] LOG:  duration: 0.073 ms
+2020-09-03 19:00:16.553 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.553 CEST [53212] LOG:  duration: 0.063 ms
+2020-09-03 19:00:16.553 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.553 CEST [53212] LOG:  duration: 0.567 ms
+2020-09-03 19:00:16.555 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.556 CEST [53212] LOG:  duration: 1.504 ms
+2020-09-03 19:00:16.560 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.560 CEST [53212] LOG:  duration: 0.064 ms
+2020-09-03 19:00:16.676 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.676 CEST [53212] LOG:  duration: 0.148 ms
+2020-09-03 19:00:16.676 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.677 CEST [53212] LOG:  duration: 0.361 ms
+2020-09-03 19:00:16.678 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.681 CEST [53212] LOG:  duration: 2.484 ms
+2020-09-03 19:00:16.682 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.682 CEST [53212] LOG:  duration: 0.134 ms
+2020-09-03 19:00:16.690 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.690 CEST [53212] LOG:  duration: 0.057 ms
+2020-09-03 19:00:16.691 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.692 CEST [53212] LOG:  duration: 0.364 ms
+2020-09-03 19:00:16.693 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.695 CEST [53212] LOG:  duration: 1.671 ms
+2020-09-03 19:00:16.696 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.696 CEST [53212] LOG:  duration: 0.118 ms
+2020-09-03 19:00:16.704 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.704 CEST [53212] LOG:  duration: 0.100 ms
+2020-09-03 19:00:16.704 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.704 CEST [53212] LOG:  duration: 0.270 ms
+2020-09-03 19:00:16.706 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.709 CEST [53212] LOG:  duration: 3.086 ms
+2020-09-03 19:00:16.710 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.710 CEST [53212] LOG:  duration: 0.067 ms
+2020-09-03 19:00:16.716 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.716 CEST [53212] LOG:  duration: 0.053 ms
+2020-09-03 19:00:16.716 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.717 CEST [53212] LOG:  duration: 0.361 ms
+2020-09-03 19:00:16.720 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.721 CEST [53212] LOG:  duration: 1.744 ms
+2020-09-03 19:00:16.723 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.723 CEST [53212] LOG:  duration: 0.422 ms
+2020-09-03 19:00:16.735 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.735 CEST [53212] LOG:  duration: 0.110 ms
+2020-09-03 19:00:16.735 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.736 CEST [53212] LOG:  duration: 0.390 ms
+2020-09-03 19:00:16.737 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.738 CEST [53212] LOG:  duration: 1.671 ms
+2020-09-03 19:00:16.740 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.741 CEST [53212] LOG:  duration: 0.192 ms
+2020-09-03 19:00:16.753 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.753 CEST [53212] LOG:  duration: 0.050 ms
+2020-09-03 19:00:16.753 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.754 CEST [53212] LOG:  duration: 0.249 ms
+2020-09-03 19:00:16.755 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.757 CEST [53212] LOG:  duration: 2.694 ms
+2020-09-03 19:00:16.759 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.759 CEST [53212] LOG:  duration: 0.129 ms
+2020-09-03 19:00:16.769 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.769 CEST [53212] LOG:  duration: 0.113 ms
+2020-09-03 19:00:16.769 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.769 CEST [53212] LOG:  duration: 0.299 ms
+2020-09-03 19:00:16.771 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.772 CEST [53212] LOG:  duration: 1.792 ms
+2020-09-03 19:00:16.774 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.774 CEST [53212] LOG:  duration: 0.118 ms
+2020-09-03 19:00:16.782 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.782 CEST [53212] LOG:  duration: 0.055 ms
+2020-09-03 19:00:16.782 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.782 CEST [53212] LOG:  duration: 0.258 ms
+2020-09-03 19:00:16.784 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.786 CEST [53212] LOG:  duration: 2.387 ms
+2020-09-03 19:00:16.788 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.788 CEST [53212] LOG:  duration: 0.063 ms
+2020-09-03 19:00:16.796 CEST [53212] LOG:  statement: BEGIN
+2020-09-03 19:00:16.796 CEST [53212] LOG:  duration: 0.181 ms
+2020-09-03 19:00:16.796 CEST [53212] LOG:  statement: SELECT city_object.id AS city_object_id, city_object.object AS city_object_object, city_object.attributes AS city_object_attributes, ST_AsEWKB(city_object.convexhull) AS city_object_convexhull, city_object.metadata_id AS city_object_metadata_id 
+	FROM city_object 
+	WHERE city_object.id = 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e'
+2020-09-03 19:00:16.797 CEST [53212] LOG:  duration: 0.291 ms
+2020-09-03 19:00:16.798 CEST [53212] LOG:  statement: SELECT geometries.id AS geometries_id, geometries.object AS geometries_object, geometries.city_object_id AS geometries_city_object_id 
+	FROM geometries 
+	WHERE 'UUID_402a38ac-27d6-4a35-b725-ee1f9b1d725e' = geometries.city_object_id
+2020-09-03 19:00:16.800 CEST [53212] LOG:  duration: 1.797 ms
+2020-09-03 19:00:16.804 CEST [53212] LOG:  statement: ROLLBACK
+2020-09-03 19:00:16.804 CEST [53212] LOG:  duration: 0.339 ms
+2020-09-03 19:00:38.993 CEST [53181] LOG:  received fast shutdown request
+2020-09-03 19:00:38.994 CEST [53181] LOG:  aborting any active transactions
+2020-09-03 19:00:38.994 CEST [53212] FATAL:  terminating connection due to administrator command
+2020-09-03 19:00:38.995 CEST [53181] LOG:  background worker "logical replication launcher" (PID 53189) exited with exit code 1
+2020-09-03 19:00:38.996 CEST [53184] LOG:  shutting down
+2020-09-03 19:00:39.013 CEST [53181] LOG:  database system is shut down
